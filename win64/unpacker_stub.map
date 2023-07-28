@@ -1,0 +1,1373 @@
+ unpacker_stub
+
+ Timestamp is 64c3704e (Fri Jul 28 02:37:50 2023)
+
+ Preferred load address is 0000000140000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000010H .data                   CODE
+ 0001:00000010 00001c20H .rdata                  CODE
+ 0001:00001c30 00000110H .rdata$voltmd           CODE
+ 0001:00001d40 00000030H .text                   CODE
+ 0001:00001d70 0002aa14H .text$mn                CODE
+ 0001:0002c784 00001fe4H .xdata                  CODE
+ 0001:0002e768 00000050H .bss                    CODE
+ 0001:0002e7b8 00000000H .edata                  CODE
+ 0002:00000000 00001d28H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000140000000     <linker-defined>
+ 0001:000016b0       price_table                00000001400026b0     range_enc.obj
+ 0001:000017d0       ??_C@_05PLEPIPMI@1?40?41@  00000001400027d0     fl2_common.obj
+ 0001:000017d8       ??_C@_0BH@FPECGIJP@Unspecified?5error?5code@ 00000001400027d8     fl2_common.obj
+ 0001:000017f0       ??_C@_0BC@CGABJKLB@No?5error?5detected@ 00000001400027f0     fl2_common.obj
+ 0001:00001808       ??_C@_0BA@DBAOFFDH@Error?5?$CIgeneric?$CJ@ 0000000140002808     fl2_common.obj
+ 0001:00001818       ??_C@_0BF@IKCFIAL@Internal?5error?5?$CIbug?$CJ@ 0000000140002818     fl2_common.obj
+ 0001:00001830       ??_C@_0BJ@MIJEMJMC@Corrupted?5block?5detected@ 0000000140002830     fl2_common.obj
+ 0001:00001850       ??_C@_0CF@FHJGNGOI@Restored?5data?5doesn?8t?5match?5che@ 0000000140002850     fl2_common.obj
+ 0001:00001878       ??_C@_0BG@DMEANILI@Unsupported?5parameter@ 0000000140002878     fl2_common.obj
+ 0001:00001890       ??_C@_0BK@KLAFINGH@Parameter?5is?5out?5of?5bound@ 0000000140002890     fl2_common.obj
+ 0001:000018b0       ??_C@_0BF@PJMMIBBA@Parameters?5lc?$CLlp?5?$DO?54@ 00000001400028b0     fl2_common.obj
+ 0001:000018c8       ??_C@_0CH@NKGCAOAJ@Not?5possible?5at?5this?5stage?5of?5e@ 00000001400028c8     fl2_common.obj
+ 0001:000018f0       ??_C@_0BN@BEPNPMBD@Context?5should?5be?5init?5first@ 00000001400028f0     fl2_common.obj
+ 0001:00001910       ??_C@_0CF@KHFHKNHC@Allocation?5error?5?3?5not?5enough?5m@ 0000000140002910     fl2_common.obj
+ 0001:00001938       ??_C@_0CA@LGGNAFE@Destination?5buffer?5is?5too?5small@ 0000000140002938     fl2_common.obj
+ 0001:00001958       ??_C@_0BG@MPKHBJLM@Src?5size?5is?5incorrect@ 0000000140002958     fl2_common.obj
+ 0001:00001970       ??_C@_0FA@PMLMKIMO@Processing?5was?5canceled?5by?5a?5ca@ 0000000140002970     fl2_common.obj
+ 0001:000019c0       ??_C@_0DG@IHMKDJJB@Streaming?5progress?5halted?5due?5t@ 00000001400029c0     fl2_common.obj
+ 0001:00001a00       ??_C@_0FA@DDIFMIBK@Wait?5timed?5out?4?5Timeouts?5should@ 0000000140002a00     fl2_common.obj
+ 0001:00001a50       ??_C@_0BL@EOGMDHJD@Forward?5link?5at?5?$CFX?5to?5?$CFu?$AN?6@ 0000000140002a50     radix_bitpack.obj
+ 0001:00001a70       ??_C@_0DH@DLFGGKIB@Failed?5integrity?5check?3?5pos?5?$CFX?0@ 0000000140002a70     radix_bitpack.obj
+ 0001:00001aa8       ??_C@_0CC@MGFECPLC@Shortened?5match?5at?5?$CFX?3?5?$CFu?5of?5?$CFu@ 0000000140002aa8     radix_bitpack.obj
+ 0001:00001ad0       ??_C@_0BM@CCNNPIEC@Cannot?5open?5directory?5?8?$CFs?8?6@ 0000000140002ad0     util.obj
+ 0001:00001aec       ??_C@_02DJGKEECL@?4?4@     0000000140002aec     util.obj
+ 0001:00001af0       ??_C@_01LFCBOECM@?4@       0000000140002af0     util.obj
+ 0001:00001af8       ??_C@_0CM@LFCIGDJJ@ERROR?3?5QueryPerformanceFrequenc@ 0000000140002af8     util.obj
+ 0001:00001b28       ??_C@_0BP@KHGALBC@GetLogicalProcessorInformation@ 0000000140002b28     util.obj
+ 0001:00001b48       ??_C@_08PNLNEKOB@kernel32@ 0000000140002b48     util.obj
+ 0001:00001b54       ??_C@_04KBFMJBNB@zstd@     0000000140002b54     util.obj
+ 0001:00001b60       __xmm@00000004000000020000000800000001 0000000140002b60     mmLoader.obj
+ 0001:00001b70       __xmm@00000040000000200000008000000010 0000000140002b70     mmLoader.obj
+ 0001:00001b80       __xmm@41656c646e6148656c75646f4d746547 0000000140002b80     mmLoader.obj
+ 0001:00001b90       __xmm@ffffffffffffffffffffffffffffffff 0000000140002b90     mmLoader.obj
+ 0001:00001ba0       __imp_DeleteCriticalSection 0000000140002ba0     <linker-defined>
+ 0001:00001ba8       __imp_InitializeConditionVariable 0000000140002ba8     <linker-defined>
+ 0001:00001bb0       __imp_InitializeCriticalSection 0000000140002bb0     <linker-defined>
+ 0001:00001bb8       __imp_LeaveCriticalSection 0000000140002bb8     <linker-defined>
+ 0001:00001bc0       __imp_WakeConditionVariable 0000000140002bc0     <linker-defined>
+ 0001:00001bc8       __imp_WakeAllConditionVariable 0000000140002bc8     <linker-defined>
+ 0001:00001bd0       __imp_EnterCriticalSection 0000000140002bd0     <linker-defined>
+ 0001:00001bd8       __imp_SleepConditionVariableCS 0000000140002bd8     <linker-defined>
+ 0001:00001be0       __imp_GetLastError         0000000140002be0     <linker-defined>
+ 0001:00001be8       __imp_WaitForSingleObject  0000000140002be8     <linker-defined>
+ 0001:00001bf0       __imp_QueryPerformanceCounter 0000000140002bf0     <linker-defined>
+ 0001:00001bf8       __imp_GetProcAddress       0000000140002bf8     <linker-defined>
+ 0001:00001c00       __imp_GetSystemInfo        0000000140002c00     <linker-defined>
+ 0001:00001c08       __imp_QueryPerformanceFrequency 0000000140002c08     <linker-defined>
+ 0001:00001c10       __imp_GetModuleHandleA     0000000140002c10     <linker-defined>
+ 0001:00001c18       __imp_FindClose            0000000140002c18     <linker-defined>
+ 0001:00001c20       __imp_FindNextFileA        0000000140002c20     <linker-defined>
+ 0001:00001c28       __imp_FindFirstFileA       0000000140002c28     <linker-defined>
+ 0001:00001c30       __volatile_metadata        0000000140002c30     <linker-defined>
+ 0001:00002180       AES_init_ctx               0000000140003180 f   aes.obj
+ 0001:00002190       AES_init_ctx_iv            0000000140003190 f   aes.obj
+ 0001:000021c0       AES_ctx_set_iv             00000001400031c0 f   aes.obj
+ 0001:00002b00       AES_ECB_encrypt            0000000140003b00 f   aes.obj
+ 0001:00002b10       AES_ECB_decrypt            0000000140003b10 f   aes.obj
+ 0001:00002b50       AES_CBC_encrypt_buffer     0000000140003b50 f   aes.obj
+ 0001:00002bf0       AES_CBC_decrypt_buffer     0000000140003bf0 f   aes.obj
+ 0001:00002c90       AES_CTR_xcrypt_buffer      0000000140003c90 f   aes.obj
+ 0001:00002fa0       DICT_construct             0000000140003fa0 f   dict_buffer.obj
+ 0001:00002fd0       DICT_init                  0000000140003fd0 f   dict_buffer.obj
+ 0001:00003180       DICT_destruct              0000000140004180 f   dict_buffer.obj
+ 0001:000031d0       DICT_size                  00000001400041d0 f   dict_buffer.obj
+ 0001:000031e0       DICT_get                   00000001400041e0 f   dict_buffer.obj
+ 0001:00003220       DICT_update                0000000140004220 f   dict_buffer.obj
+ 0001:00003240       DICT_put                   0000000140004240 f   dict_buffer.obj
+ 0001:000032a0       DICT_availSpace            00000001400042a0 f   dict_buffer.obj
+ 0001:000032b0       DICT_hasUnprocessed        00000001400042b0 f   dict_buffer.obj
+ 0001:000032c0       DICT_getBlock              00000001400042c0 f   dict_buffer.obj
+ 0001:00003320       DICT_needShift             0000000140004320 f   dict_buffer.obj
+ 0001:00003370       DICT_async                 0000000140004370 f   dict_buffer.obj
+ 0001:00003380       DICT_shift                 0000000140004380 f   dict_buffer.obj
+ 0001:00003450       DICT_getDigest             0000000140004450 f   dict_buffer.obj
+ 0001:00003460       DICT_memUsage              0000000140004460 f   dict_buffer.obj
+ 0001:00003470       FL2_versionNumber          0000000140004470 f   fl2_common.obj
+ 0001:00003480       FL2_versionString          0000000140004480 f   fl2_common.obj
+ 0001:00003490       FL2_compressBound          0000000140004490 f   fl2_common.obj
+ 0001:00003490       LZMA2_compressBound        0000000140004490 f   lzma2_enc.obj
+ 0001:000034c0       FL2_isError                00000001400044c0 f   fl2_common.obj
+ 0001:000034d0       FL2_isTimedOut             00000001400044d0 f   fl2_common.obj
+ 0001:000034e0       FL2_getErrorName           00000001400044e0 f   fl2_common.obj
+ 0001:000035f0       FL2_getErrorCode           00000001400045f0 f   fl2_common.obj
+ 0001:00003600       FL2_getErrorString         0000000140004600 f   fl2_common.obj
+ 0001:00003710       FL2_maxCLevel              0000000140004710 f   fl2_compress.obj
+ 0001:00003710       FL2_maxHighCLevel          0000000140004710 f   fl2_compress.obj
+ 0001:00003a80       FL2_createCCtx             0000000140004a80 f   fl2_compress.obj
+ 0001:00003a80       FL2_createCCtxMt           0000000140004a80 f   fl2_compress.obj
+ 0001:00003a80       FL2_createCStream          0000000140004a80 f   fl2_compress.obj
+ 0001:00003a90       FL2_freeCCtx               0000000140004a90 f   fl2_compress.obj
+ 0001:00003c90       FL2_getCCtxThreadCount     0000000140004c90 f   fl2_compress.obj
+ 0001:00004d10       FL2_compressCCtx           0000000140005d10 f   fl2_compress.obj
+ 0001:00004ed0       FL2_compress               0000000140005ed0 f   fl2_compress.obj
+ 0001:00004ed0       FL2_compressMt             0000000140005ed0 f   fl2_compress.obj
+ 0001:00004f60       FL2_getCCtxDictProp        0000000140005f60 f   fl2_compress.obj
+ 0001:00004fc0       FL2_CCtx_setParameter      0000000140005fc0 f   fl2_compress.obj
+ 0001:00005330       FL2_CCtx_getParameter      0000000140006330 f   fl2_compress.obj
+ 0001:00005330       FL2_CStream_getParameter   0000000140006330 f   fl2_compress.obj
+ 0001:00005420       FL2_CStream_setParameter   0000000140006420 f   fl2_compress.obj
+ 0001:00005430       FL2_createCStreamMt        0000000140006430 f   fl2_compress.obj
+ 0001:00005440       FL2_freeCStream            0000000140006440 f   fl2_compress.obj
+ 0001:00005450       FL2_initCStream            0000000140006450 f   fl2_compress.obj
+ 0001:000055b0       FL2_setCStreamTimeout      00000001400065b0 f   fl2_compress.obj
+ 0001:00005770       FL2_copyCStreamOutput      0000000140006770 f   fl2_compress.obj
+ 0001:00005af0       FL2_compressStream         0000000140006af0 f   fl2_compress.obj
+ 0001:00005ce0       FL2_getDictionaryBuffer    0000000140006ce0 f   fl2_compress.obj
+ 0001:00005de0       FL2_updateDictionary       0000000140006de0 f   fl2_compress.obj
+ 0001:00005e20       FL2_getNextCompressedBuffer 0000000140006e20 f   fl2_compress.obj
+ 0001:00005f20       FL2_getCStreamProgress     0000000140006f20 f   fl2_compress.obj
+ 0001:00005fc0       FL2_waitCStream            0000000140006fc0 f   fl2_compress.obj
+ 0001:00006020       FL2_cancelCStream          0000000140007020 f   fl2_compress.obj
+ 0001:00006100       FL2_remainingOutputSize    0000000140007100 f   fl2_compress.obj
+ 0001:00006440       FL2_flushStream            0000000140007440 f   fl2_compress.obj
+ 0001:00006530       FL2_endStream              0000000140007530 f   fl2_compress.obj
+ 0001:00006780       FL2_getLevelParameters     0000000140007780 f   fl2_compress.obj
+ 0001:00006880       FL2_estimateCCtxSize       0000000140007880 f   fl2_compress.obj
+ 0001:000068d0       FL2_estimateCCtxSize_byParams 00000001400078d0 f   fl2_compress.obj
+ 0001:000069a0       FL2_estimateCCtxSize_usingCCtx 00000001400079a0 f   fl2_compress.obj
+ 0001:000069a0       FL2_estimateCStreamSize_usingCStream 00000001400079a0 f   fl2_compress.obj
+ 0001:000069e0       FL2_estimateCStreamSize    00000001400079e0 f   fl2_compress.obj
+ 0001:00006b30       FL2_estimateCStreamSize_byParams 0000000140007b30 f   fl2_compress.obj
+ 0001:00006b60       _InlineInterlockedAdd      0000000140007b60 f i fl2_decompress.obj
+ 0001:00006b70       FL2_findDecompressedSize   0000000140007b70 f   fl2_decompress.obj
+ 0001:00006c00       FL2_getDictSizeFromProp    0000000140007c00 f   fl2_decompress.obj
+ 0001:00006c00       LZMA2_getDictSizeFromProp  0000000140007c00 f   lzma2_dec.obj
+ 0001:00006c30       FL2_decompress             0000000140007c30 f   fl2_decompress.obj
+ 0001:00006c30       FL2_decompressMt           0000000140007c30 f   fl2_decompress.obj
+ 0001:00006cb0       FL2_createDCtx             0000000140007cb0 f   fl2_decompress.obj
+ 0001:00006cc0       FL2_createDCtxMt           0000000140007cc0 f   fl2_decompress.obj
+ 0001:00007010       FL2_freeDCtx               0000000140008010 f   fl2_decompress.obj
+ 0001:00007170       FL2_getDCtxThreadCount     0000000140008170 f   fl2_decompress.obj
+ 0001:00007950       FL2_initDCtx               0000000140008950 f   fl2_decompress.obj
+ 0001:00007970       FL2_decompressDCtx         0000000140008970 f   fl2_decompress.obj
+ 0001:000094c0       FL2_createDStream          000000014000a4c0 f   fl2_decompress.obj
+ 0001:00009580       FL2_createDStreamMt        000000014000a580 f   fl2_decompress.obj
+ 0001:00009640       FL2_freeDStream            000000014000a640 f   fl2_decompress.obj
+ 0001:000096f0       FL2_setDStreamMemoryLimitMt 000000014000a6f0 f   fl2_decompress.obj
+ 0001:00009700       FL2_initDStream            000000014000a700 f   fl2_decompress.obj
+ 0001:00009760       FL2_setDStreamTimeout      000000014000a760 f   fl2_decompress.obj
+ 0001:000097d0       FL2_waitDStream            000000014000a7d0 f   fl2_decompress.obj
+ 0001:00009800       FL2_cancelDStream          000000014000a800 f   fl2_decompress.obj
+ 0001:000098f0       FL2_getDStreamProgress     000000014000a8f0 f   fl2_decompress.obj
+ 0001:00009a40       FL2_initDStream_withProp   000000014000aa40 f   fl2_decompress.obj
+ 0001:00009e40       FL2_decompressStream       000000014000ae40 f   fl2_decompress.obj
+ 0001:00009f30       FL2_estimateDCtxSize       000000014000af30 f   fl2_decompress.obj
+ 0001:00009f60       FL2_estimateDStreamSize    000000014000af60 f   fl2_decompress.obj
+ 0001:0000a0b0       FL2POOL_create             000000014000b0b0 f   fl2_pool.obj
+ 0001:0000a2d0       FL2POOL_free               000000014000b2d0 f   fl2_pool.obj
+ 0001:0000a380       FL2POOL_sizeof             000000014000b380 f   fl2_pool.obj
+ 0001:0000a3a0       FL2POOL_addRange           000000014000b3a0 f   fl2_pool.obj
+ 0001:0000a420       FL2POOL_add                000000014000b420 f   fl2_pool.obj
+ 0001:0000a4a0       FL2POOL_waitAll            000000014000b4a0 f   fl2_pool.obj
+ 0001:0000a590       FL2POOL_threadsBusy        000000014000b590 f   fl2_pool.obj
+ 0001:0000a5c0       FL2_pthread_create         000000014000b5c0 f   fl2_threading.obj
+ 0001:0000a620       FL2_pthread_join           000000014000b620 f   fl2_threading.obj
+ 0001:0000a660       FL2_checkNbThreads         000000014000b660 f   fl2_threading.obj
+ 0001:0000c7a0       LZMA_constructDCtx         000000014000d7a0 f   lzma2_dec.obj
+ 0001:0000c800       LZMA_destructDCtx          000000014000d800 f   lzma2_dec.obj
+ 0001:0000c890       LZMA2_decMemoryUsage       000000014000d890 f   lzma2_dec.obj
+ 0001:0000c8d0       LZMA2_initDecoder          000000014000d8d0 f   lzma2_dec.obj
+ 0001:0000cfc0       LZMA2_decodeToDic          000000014000dfc0 f   lzma2_dec.obj
+ 0001:0000d080       LZMA2_decodeToBuf          000000014000e080 f   lzma2_dec.obj
+ 0001:0000d1e0       LZMA2_getUnpackSize        000000014000e1e0 f   lzma2_dec.obj
+ 0001:0000d2f0       LZMA2_parseInput           000000014000e2f0 f   lzma2_dec.obj
+ 0001:0000da10       LZMA2_createECtx           000000014000ea10 f   lzma2_enc.obj
+ 0001:0000daa0       LZMA2_freeECtx             000000014000eaa0 f   lzma2_enc.obj
+ 0001:000103a0       LZMA2_hashAlloc            00000001400113a0 f   lzma2_enc.obj
+ 0001:000179f0       LZMA2_getDictSizeProp      00000001400189f0 f   lzma2_enc.obj
+ 0001:00017a40       LZMA2_encMemoryUsage       0000000140018a40 f   lzma2_enc.obj
+ 0001:0001f640       LZMA2_encode               0000000140020640 f   lzma2_enc.obj
+ 0001:0001fd60       RMF_bitpackAsOutputBuffer  0000000140020d60 f   radix_bitpack.obj
+ 0001:0001fd70       RMF_bitpackLimitLengths    0000000140020d70 f   radix_bitpack.obj
+ 0001:0001fdd0       __local_stdio_printf_options 0000000140020dd0 f i radix_bitpack.obj
+ 0001:0001fde0       _vfprintf_l                0000000140020de0 f i radix_bitpack.obj
+ 0001:0001fe10       printf                     0000000140020e10 f i radix_bitpack.obj
+ 0001:00020000       RMF_bitpackInit            0000000140021000 f   radix_bitpack.obj
+ 0001:00021020       RMF_bitpackBuildTable      0000000140022020 f   radix_bitpack.obj
+ 0001:00021230       RMF_bitpackIntegrityCheck  0000000140022230 f   radix_bitpack.obj
+ 0001:00021a30       RMF_resetIncompleteBuild   0000000140022a30 f   radix_mf.obj
+ 0001:00021a60       RMF_createMatchTable       0000000140022a60 f   radix_mf.obj
+ 0001:00021c20       RMF_freeMatchTable         0000000140022c20 f   radix_mf.obj
+ 0001:00021c90       RMF_compatibleParameters   0000000140022c90 f   radix_mf.obj
+ 0001:00021d60       RMF_applyParameters        0000000140022d60 f   radix_mf.obj
+ 0001:00021e40       RMF_threadCount            0000000140022e40 f   radix_mf.obj
+ 0001:00021e50       RMF_initProgress           0000000140022e50 f   radix_mf.obj
+ 0001:00021e60       RMF_initTable              0000000140022e60 f   radix_mf.obj
+ 0001:00022aa0       RMF_recurseListChunk       0000000140023aa0 f   radix_mf.obj
+ 0001:000235a0       RMF_buildTable             00000001400245a0 f   radix_mf.obj
+ 0001:00023640       RMF_cancelBuild            0000000140024640 f   radix_mf.obj
+ 0001:00023650       RMF_integrityCheck         0000000140024650 f   radix_mf.obj
+ 0001:00023920       RMF_limitLengths           0000000140024920 f   radix_mf.obj
+ 0001:00023a00       RMF_getTableAsOutputBuffer 0000000140024a00 f   radix_mf.obj
+ 0001:00023a40       RMF_memoryUsage            0000000140024a40 f   radix_mf.obj
+ 0001:00023a90       RMF_structuredAsOutputBuffer 0000000140024a90 f   radix_struct.obj
+ 0001:00023ac0       RMF_structuredLimitLengths 0000000140024ac0 f   radix_struct.obj
+ 0001:00023d90       RMF_structuredInit         0000000140024d90 f   radix_struct.obj
+ 0001:00024f10       RMF_structuredBuildTable   0000000140025f10 f   radix_struct.obj
+ 0001:00025120       RMF_structuredIntegrityCheck 0000000140026120 f   radix_struct.obj
+ 0001:000252d0       RC_setOutputBuffer         00000001400262d0 f   range_enc.obj
+ 0001:000252e0       RC_reset                   00000001400262e0 f   range_enc.obj
+ 0001:00025300       RC_shiftLow                0000000140026300 f   range_enc.obj
+ 0001:00025380       RC_encodeBitTree           0000000140026380 f   range_enc.obj
+ 0001:000254c0       RC_encodeBitTreeReverse    00000001400264c0 f   range_enc.obj
+ 0001:000255e0       RC_encodeDirect            00000001400265e0 f   range_enc.obj
+ 0001:00025640       fprintf                    0000000140026640 f i util.obj
+ 0001:000256d0       UTIL_fileExist             00000001400266d0 f   util.obj
+ 0001:000256f0       UTIL_isRegularFile         00000001400266f0 f   util.obj
+ 0001:00025720       UTIL_getFileStat           0000000140026720 f   util.obj
+ 0001:00025750       UTIL_setFileStat           0000000140026750 f   util.obj
+ 0001:00025800       UTIL_isDirectory           0000000140026800 f   util.obj
+ 0001:00025830       UTIL_isLink                0000000140026830 f   util.obj
+ 0001:00025840       UTIL_getFileSize           0000000140026840 f   util.obj
+ 0001:000258a0       UTIL_getTotalFileSize      00000001400268a0 f   util.obj
+ 0001:00025970       UTIL_prepareFileList       0000000140026970 f   util.obj
+ 0001:00025c20       UTIL_createFileList        0000000140026c20 f   util.obj
+ 0001:00025e50       UTIL_getTime               0000000140026e50 f   util.obj
+ 0001:00025e70       UTIL_getSpanTimeMicro      0000000140026e70 f   util.obj
+ 0001:00025ef0       UTIL_getSpanTimeNano       0000000140026ef0 f   util.obj
+ 0001:00025f70       UTIL_clockSpanMicro        0000000140026f70 f   util.obj
+ 0001:00025ff0       UTIL_clockSpanNano         0000000140026ff0 f   util.obj
+ 0001:00026020       UTIL_waitForNextTick       0000000140027020 f   util.obj
+ 0001:000260c0       UTIL_countPhysicalCores    00000001400270c0 f   util.obj
+ 0001:00026240       XXH32_hashFromCanonical    0000000140027240 f   xxhash.obj
+ 0001:00026260       XXH64_hashFromCanonical    0000000140027260 f   xxhash.obj
+ 0001:00026270       XXH_versionNumber          0000000140027270 f   xxhash.obj
+ 0001:00026280       XXH32_copyState            0000000140027280 f   xxhash.obj
+ 0001:000262a0       XXH64_copyState            00000001400272a0 f   xxhash.obj
+ 0001:00026480       XXH32                      0000000140027480 f   xxhash.obj
+ 0001:000268d0       XXH64                      00000001400278d0 f   xxhash.obj
+ 0001:00026b00       XXH32_createState          0000000140027b00 f   xxhash.obj
+ 0001:00026b10       XXH32_freeState            0000000140027b10 f   xxhash.obj
+ 0001:00026b10       XXH64_freeState            0000000140027b10 f   xxhash.obj
+ 0001:00026b20       XXH64_createState          0000000140027b20 f   xxhash.obj
+ 0001:00026b30       XXH32_reset                0000000140027b30 f   xxhash.obj
+ 0001:00026b90       XXH64_reset                0000000140027b90 f   xxhash.obj
+ 0001:00026e30       XXH32_update               0000000140027e30 f   xxhash.obj
+ 0001:000270a0       XXH32_digest               00000001400280a0 f   xxhash.obj
+ 0001:000273a0       XXH64_update               00000001400283a0 f   xxhash.obj
+ 0001:00027740       XXH64_digest               0000000140028740 f   xxhash.obj
+ 0001:00027910       XXH32_canonicalFromHash    0000000140028910 f   xxhash.obj
+ 0001:00027920       XXH64_canonicalFromHash    0000000140028920 f   xxhash.obj
+ 0001:00027930       MemModuleHelper            0000000140028930 f   mmLoader.obj
+ 0001:00027b50       LoadMemModuleInternal      0000000140028b50 f   mmLoader.obj
+ 0001:000284e0       LoadMemModule              00000001400294e0 f   mmLoader.obj
+ 0001:000285a0       FreeMemModuleInternal      00000001400295a0 f   mmLoader.obj
+ 0001:00028620       FreeMemModule              0000000140029620 f   mmLoader.obj
+ 0001:000286c0       GetMemModuleProcInternal   00000001400296c0 f   mmLoader.obj
+ 0001:000287c0       GetMemModuleProc           00000001400297c0 f   mmLoader.obj
+ 0001:000288c0       _GetProcAddress            00000001400298c0 f   mmLoader.obj
+ 0001:000289a0       _GetModuleHandle           00000001400299a0 f   mmLoader.obj
+ 0001:00028a50       InitApiTable               0000000140029a50 f   mmLoader.obj
+ 0001:00028ec0       IsValidPEFormat            0000000140029ec0 f   mmLoader.obj
+ 0001:00028f30       MapMemModuleSections       0000000140029f30 f   mmLoader.obj
+ 0001:00029370       RelocateModuleBase         000000014002a370 f   mmLoader.obj
+ 0001:000294a0       ResolveImportTable         000000014002a4a0 f   mmLoader.obj
+ 0001:00029610       SetMemProtectStatus        000000014002a610 f   mmLoader.obj
+ 0001:00029780       ExecuteTLSCallback         000000014002a780 f   mmLoader.obj
+ 0001:00029800       CallModuleEntry            000000014002a800 f   mmLoader.obj
+ 0001:00029840       GetExportedProcAddress     000000014002a840 f   mmLoader.obj
+ 0001:00029910       UnmapMemModule             000000014002a910 f   mmLoader.obj
+ 0001:00029960       GetCRC32                   000000014002a960 f   mmLoader.obj
+ 0001:00029a70       mml_strlenA                000000014002aa70 f   mmLoader.obj
+ 0001:00029a90       mml_strcmpA                000000014002aa90 f   mmLoader.obj
+ 0001:00029ac0       mml_stricmpW               000000014002aac0 f   mmLoader.obj
+ 0001:00029b20       mml_strcpyW                000000014002ab20 f   mmLoader.obj
+ 0001:00029b50       mml_memset                 000000014002ab50 f   mmLoader.obj
+ 0001:00029ba0       mml_memmove                000000014002aba0 f   mmLoader.obj
+ 0001:00029c10       mmLoaderCodeEnd            000000014002ac10 f   mmLoader.obj
+ 0001:00029c20       ?func_unpack@@YAHPEAXH0@Z  000000014002ac20 f   unpacker.obj
+ 0001:00029fb0       crt_init                   000000014002afb0 f   msvcrt:pe_resolver.obj
+ 0001:00029fd0       memset                     000000014002afd0 f   msvcrt:pe_resolver.obj
+ 0001:0002a000       malloc                     000000014002b000 f   msvcrt:pe_resolver.obj
+ 0001:0002a020       calloc                     000000014002b020 f   msvcrt:pe_resolver.obj
+ 0001:0002a050       realloc                    000000014002b050 f   msvcrt:pe_resolver.obj
+ 0001:0002a080       free                       000000014002b080 f   msvcrt:pe_resolver.obj
+ 0001:0002a0a0       memcpy                     000000014002b0a0 f   msvcrt:pe_resolver.obj
+ 0001:0002a0e0       memmove                    000000014002b0e0 f   msvcrt:pe_resolver.obj
+ 0001:0002a120       exit                       000000014002b120 f   msvcrt:pe_resolver.obj
+ 0001:0002a140       perror                     000000014002b140 f   msvcrt:pe_resolver.obj
+ 0001:0002a160       time                       000000014002b160 f   msvcrt:pe_resolver.obj
+ 0001:0002a180       utime                      000000014002b180 f   msvcrt:pe_resolver.obj
+ 0001:0002a1b0       _time64                    000000014002b1b0 f   msvcrt:pe_resolver.obj
+ 0001:0002a1d0       _utime64                   000000014002b1d0 f   msvcrt:pe_resolver.obj
+ 0001:0002a200       _errno                     000000014002b200 f   msvcrt:pe_resolver.obj
+ 0001:0002a220       _stat64                    000000014002b220 f   msvcrt:pe_resolver.obj
+ 0001:0002a250       _chmod                     000000014002b250 f   msvcrt:pe_resolver.obj
+ 0001:0002a280       strlen                     000000014002b280 f   msvcrt:pe_resolver.obj
+ 0001:0002a2a0       strcmp                     000000014002b2a0 f   msvcrt:pe_resolver.obj
+ 0001:0002a2d0       _beginthreadex             000000014002b2d0 f   msvcrt:pe_resolver.obj
+ 0001:0002a320       __acrt_iob_func            000000014002b320 f   msvcrt:pe_resolver.obj
+ 0001:0002a340       __stdio_common_vfprintf    000000014002b340 f   msvcrt:pe_resolver.obj
+ 0001:0002a390       __chkstk                   000000014002b390 f   msvcrt:pe_resolver.obj
+ 0001:0002a3a0       ?_crt_init@@YAXXZ          000000014002b3a0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a430       ?_memset@@YAPEAXPEAXH_K@Z  000000014002b430 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a4a0       ?h_malloc@@YAPEAX_K@Z      000000014002b4a0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a4d0       ?h_calloc@@YAPEAX_K0@Z     000000014002b4d0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a510       ?h_realloc@@YAPEAXPEAX_K@Z 000000014002b510 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a550       ?h_free@@YAXPEAX@Z         000000014002b550 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a580       ?h_memcpy@@YAPEAXPEAXPEBX_K@Z 000000014002b580 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a5d0       ?h_memset@@YAPEAXPEAXH_K@Z 000000014002b5d0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a610       ?h_memmove@@YAPEAXPEAXPEBX_K@Z 000000014002b610 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a660       ?h_exit@@YAXH@Z            000000014002b660 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a690       ?h_perror@@YAXPEBD@Z       000000014002b690 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a6c0       ?h_stat64@@YAHPEBDPEAX@Z   000000014002b6c0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a700       ?h_time@@YA_JPEA_J@Z       000000014002b700 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a730       ?h_utime@@YAHPEBDPEAX@Z    000000014002b730 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a770       ?h_time64@@YA_JPEA_J@Z     000000014002b770 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a7a0       ?h_utime64@@YAHPEBDPEAX@Z  000000014002b7a0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a7e0       ?h__errno@@YAHXZ           000000014002b7e0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a800       ?h_set_errno@@YAXH@Z       000000014002b800 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a840       ?h_chmod@@YAHPEBDH@Z       000000014002b840 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a880       ?h_strlen@@YA_JPEBD@Z      000000014002b880 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a8b0       ?h_strcmp@@YAHPEBD0@Z      000000014002b8b0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a8f0       ?h_beginthreadex@@YAPEAXPEAXI00IPEAI@Z 000000014002b8f0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a950       ?h_acrt_iob_func@@YAPEAXI@Z 000000014002b950 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002a980       ?h_stdio_common_vfprintf@@YAH_KPEAXPEBD1PEAD@Z 000000014002b980 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002aa10       ??$find_in_module@$0BADGCPBK@@detail@li@@YA_K_K@Z 000000014002ba10 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002aa70       ??$find_in_module@$0BAIBLIL@@detail@li@@YA_K_K@Z 000000014002ba70 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002aad0       ??$find_in_module@$0CBMPGEFC@@detail@li@@YA_K_K@Z 000000014002bad0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002ab30       ??$find_in_module@$0DAHMMAAG@@detail@li@@YA_K_K@Z 000000014002bb30 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002ab90       ??$find_in_module@$0EKIOLLBF@@detail@li@@YA_K_K@Z 000000014002bb90 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002abf0       ??$find_in_module@$0EPIHDMOG@@detail@li@@YA_K_K@Z 000000014002bbf0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002ac50       ??$find_in_module@$0FFIMCHEN@@detail@li@@YA_K_K@Z 000000014002bc50 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002acb0       ??$find_in_module@$0FILKDNJH@@detail@li@@YA_K_K@Z 000000014002bcb0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002ad10       ??$find_in_module@$0FNDMJLOE@@detail@li@@YA_K_K@Z 000000014002bd10 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002ad70       ??$find_in_module@$0HDOCACAD@@detail@li@@YA_K_K@Z 000000014002bd70 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002add0       ??$find_in_module@$0HELPNHFP@@detail@li@@YA_K_K@Z 000000014002bdd0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002ae30       ??$find_in_module@$0IPLDJBEG@@detail@li@@YA_K_K@Z 000000014002be30 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002ae90       ??$find_in_module@$0JJLDOONL@@detail@li@@YA_K_K@Z 000000014002be90 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002aef0       ??$find_in_module@$0JNDGHAJE@@detail@li@@YA_K_K@Z 000000014002bef0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002af50       ??$find_in_module@$0KEFMOMGE@@detail@li@@YA_K_K@Z 000000014002bf50 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002afb0       ??$find_in_module@$0LCHMNEEC@@detail@li@@YA_K_K@Z 000000014002bfb0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b010       ??$find_in_module@$0LEJLCEKJ@@detail@li@@YA_K_K@Z 000000014002c010 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b070       ??$find_in_module@$0LPCGLDEF@@detail@li@@YA_K_K@Z 000000014002c070 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b0d0       ??$find_in_module@$0MLIAMMAG@@detail@li@@YA_K_K@Z 000000014002c0d0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b130       ??$find_in_module@$0MNONBKIF@@detail@li@@YA_K_K@Z 000000014002c130 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b190       ??$find_in_module@$0ONFJOEAH@@detail@li@@YA_K_K@Z 000000014002c190 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b1f0       ??$find_nocache@$0FDLCAHAP@@detail@li@@YA_KXZ 000000014002c1f0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b220       ??$find_nocache@Uallow_all_modules@detail@li@@@detail@li@@YA_KIUallow_all_modules@01@@Z 000000014002c220 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b300       ??$hash@D@detail@li@@YAIPEBD@Z 000000014002c300 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b360       ??0exports_directory@detail@li@@QEAA@_K@Z 000000014002c360 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b3a0       ??Bexports_directory@detail@li@@QEBA_NXZ 000000014002c3a0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b3e0       ??Rallow_all_modules@detail@li@@QEBA_NPEBULDR_DATA_TABLE_ENTRY_T@win@12@@Z 000000014002c3e0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b3f0       ?address@exports_directory@detail@li@@QEBA_KK@Z 000000014002c3f0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b450       ?crypt_get@?$xor_string@$$CBD$0L@U?$integer_sequence@_K$0HINDLFOKCAMBKMDD@$0?HAKIOIGLIEJGGM@@std@@U?$integer_sequence@_K$0A@$00@2@@jm@@QEAAPEBDXZ 000000014002c450 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b590       ?image_export_dir@detail@li@@YAPEBUIMAGE_EXPORT_DIRECTORY@win@12@_K@Z 000000014002c590 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b5c0       ?ldr@detail@li@@YAPEBUPEB_LDR_DATA_T@win@12@XZ 000000014002c5c0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b5e0       ?ldr_data_entry@detail@li@@YAPEBULDR_DATA_TABLE_ENTRY_T@win@12@XZ 000000014002c5e0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b600       ?load_order_next@LDR_DATA_TABLE_ENTRY_T@win@detail@li@@QEBAPEBU1234@XZ 000000014002c600 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b610       ?name@exports_directory@detail@li@@QEBAPEBDK@Z 000000014002c610 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b650       ?nt_headers@detail@li@@YAPEBUIMAGE_NT_HEADERS@win@12@_K@Z 000000014002c650 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b670       ?peb@detail@li@@YAPEBUPEB_T@win@12@XZ 000000014002c670 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b680       ?single@hash_t@detail@li@@SAXAEAID@Z 000000014002c680 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b6b0       ?size@exports_directory@detail@li@@QEBAKXZ 000000014002c6b0 f i msvcrt:pe_resolver_funcs.obj
+ 0001:0002b6d0       k32_init                   000000014002c6d0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b6f0       WaitForSingleObject        000000014002c6f0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b720       GetLastError               000000014002c720 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b740       GetProcAddress             000000014002c740 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b770       Sleep                      000000014002c770 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b790       InitializeCriticalSection  000000014002c790 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b7b0       DeleteCriticalSection      000000014002c7b0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b7d0       EnterCriticalSection       000000014002c7d0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b7f0       LeaveCriticalSection       000000014002c7f0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b810       InitializeConditionVariable 000000014002c810 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b830       WakeConditionVariable      000000014002c830 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b850       WakeAllConditionVariable   000000014002c850 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b870       SleepConditionVariableCS   000000014002c870 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b8b0       FindClose                  000000014002c8b0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b8d0       FindFirstFileA             000000014002c8d0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b900       FindNextFileA              000000014002c900 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b930       QueryPerformanceCounter    000000014002c930 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b950       QueryPerformanceFrequency  000000014002c950 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b970       GetSystemInfo              000000014002c970 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b990       GetModuleHandleW           000000014002c990 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b9b0       GetModuleHandleA           000000014002c9b0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b9d0       K32_InitializeConditionVariable 000000014002c9d0 f   kernel32:pe_resolver_k32.obj
+ 0001:0002b9f0       ?_k32_init@@YAXXZ          000000014002c9f0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002ba80       ?h_GetLastError@@YAKXZ     000000014002ca80 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002baa0       ?h_GetProcAddress@@YAPEAXPEAXPEBD@Z 000000014002caa0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bae0       ?h_WaitForSingleObject@@YAKPEAXK@Z 000000014002cae0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bb20       ?h_Sleep@@YAXK@Z           000000014002cb20 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bb50       ?h_InitializeCriticalSection@@YAXPEAX@Z 000000014002cb50 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bb80       ?h_DeleteCriticalSection@@YAXPEAX@Z 000000014002cb80 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bbb0       ?h_EnterCriticalSection@@YAXPEAX@Z 000000014002cbb0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bbe0       ?h_LeaveCriticalSection@@YAXPEAX@Z 000000014002cbe0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bc10       ?h_InitializeConditionVariable@@YAXPEAX@Z 000000014002cc10 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bc40       ?h_WakeConditionVariable@@YAXPEAX@Z 000000014002cc40 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bc70       ?h_WakeAllConditionVariable@@YAXPEAX@Z 000000014002cc70 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bca0       ?h_SleepConditionVariableCS@@YAHPEAX0K@Z 000000014002cca0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bcf0       ?h_FindClose@@YAHPEAX@Z    000000014002ccf0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bd20       ?h_FindFirstFileA@@YAPEAXPEBDPEAX@Z 000000014002cd20 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bd60       ?h_FindNextFileA@@YAHPEAX0@Z 000000014002cd60 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bda0       ?h_QueryPerformanceCounter@@YAHPEAX@Z 000000014002cda0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bdd0       ?h_QueryPerformanceFrequency@@YAHPEAX@Z 000000014002cdd0 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002be00       ?h_GetSystemInfo@@YAXPEAX@Z 000000014002ce00 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002be30       ?h_GetModuleHandleW@@YAPEAXPEB_W@Z 000000014002ce30 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002be60       ?h_GetModuleHandleA@@YAPEAXPEBD@Z 000000014002ce60 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bed0       ??$find_in_module@$0CHMFPGIB@@detail@li@@YA_K_K@Z 000000014002ced0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bf30       ??$find_in_module@$0CPKGCMKI@@detail@li@@YA_K_K@Z 000000014002cf30 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bf90       ??$find_in_module@$0FAFGNPDH@@detail@li@@YA_K_K@Z 000000014002cf90 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002bff0       ??$find_in_module@$0GPENBDJI@@detail@li@@YA_K_K@Z 000000014002cff0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c050       ??$find_in_module@$0HBJEIMKE@@detail@li@@YA_K_K@Z 000000014002d050 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c0b0       ??$find_in_module@$0JBNJMLOC@@detail@li@@YA_K_K@Z 000000014002d0b0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c110       ??$find_in_module@$0LBAOAIFB@@detail@li@@YA_K_K@Z 000000014002d110 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c170       ??$find_in_module@$0LEEINFNE@@detail@li@@YA_K_K@Z 000000014002d170 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c1d0       ??$find_in_module@$0LGPLGBCG@@detail@li@@YA_K_K@Z 000000014002d1d0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c230       ??$find_in_module@$0MHANNDEA@@detail@li@@YA_K_K@Z 000000014002d230 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c290       ??$find_in_module@$0NCGDLNOG@@detail@li@@YA_K_K@Z 000000014002d290 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c2f0       ??$find_in_module@$0NHEICPFF@@detail@li@@YA_K_K@Z 000000014002d2f0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c350       ??$find_in_module@$0NKHKEJJL@@detail@li@@YA_K_K@Z 000000014002d350 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c3b0       ??$find_in_module@$0NNDFMGOG@@detail@li@@YA_K_K@Z 000000014002d3b0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c410       ??$find_in_module@$0ODHDFPFC@@detail@li@@YA_K_K@Z 000000014002d410 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c470       ??$find_in_module@$0OEGDNKDM@@detail@li@@YA_K_K@Z 000000014002d470 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c4d0       ??$find_in_module@$0OJBLEAHH@@detail@li@@YA_K_K@Z 000000014002d4d0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c530       ??$find_in_module@$0PIPEFHCF@@detail@li@@YA_K_K@Z 000000014002d530 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c590       ??$find_in_module@$0PJIODBAF@@detail@li@@YA_K_K@Z 000000014002d590 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c5f0       ??$find_in_module@$0PNNDEJPH@@detail@li@@YA_K_K@Z 000000014002d5f0 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c650       ?crypt_get@?$xor_string@$$CBD$0N@U?$integer_sequence@_K$0DGOABJPHLAINMJHJ@$0EBICPDAKLHJJMDEO@@std@@U?$integer_sequence@_K$0A@$00@2@@jm@@QEAAPEBDXZ 000000014002d650 f i kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e768       ?msvcrtLib@@3_KA           000000014002f768     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e770       ?kernel32Lib@@3_KA         000000014002f770     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e778       ?pe_module@@3PEAPEAXEA     000000014002f778     unpacker.obj
+ 0001:0002e79c       __isa_available            000000014002f79c     * CIL library *:* CIL module *
+ 0001:0002e79c       __isa_available_default    000000014002f79c     aes.obj
+ 0001:0002e7a0       g_utilDisplayLevel         000000014002f7a0     <common>
+ 0001:0002e7a8       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 000000014002f7a8     <common>
+ 0001:0002e7b0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@9 000000014002f7b0     <common>
+
+ entry point at        0001:00029c20
+
+ Static symbols
+
+ 0001:fffff000       $unwind$??$find_nocache@$0FDLCAHAP@@detail@li@@YA_KXZ 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$??$find_nocache@Uallow_all_modules@detail@li@@@detail@li@@YA_KIUallow_all_modules@01@@Z 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$??$hash@D@detail@li@@YAIPEBD@Z 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$??0exports_directory@detail@li@@QEAA@_K@Z 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$??Bexports_directory@detail@li@@QEBA_NXZ 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$?address@exports_directory@detail@li@@QEBA_KK@Z 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$?image_export_dir@detail@li@@YAPEBUIMAGE_EXPORT_DIRECTORY@win@12@_K@Z 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$?ldr@detail@li@@YAPEBUPEB_LDR_DATA_T@win@12@XZ 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0001:fffff000       $unwind$?ldr_data_entry@detail@li@@YAPEBULDR_DATA_TABLE_ENTRY_T@win@12@XZ 0000000140000000     kernel32:pe_resolver_k32_funcs.obj
+ 0000:00000054       _volmd                     0000000140000054     fl2_compress.obj
+ 0000:0000005a       _volmd                     000000014000005a     fl2_compress.obj
+ 0000:0000005d       _volmd                     000000014000005d     fl2_compress.obj
+ 0000:00000064       _volmd                     0000000140000064     fl2_compress.obj
+ 0000:0000006e       _volmd                     000000014000006e     fl2_compress.obj
+ 0000:00000098       _volmd                     0000000140000098     fl2_compress.obj
+ 0000:000000a2       _volmd                     00000001400000a2     fl2_compress.obj
+ 0000:000000ab       _volmd                     00000001400000ab     fl2_compress.obj
+ 0000:000000cb       _volmd                     00000001400000cb     fl2_decompress.obj
+ 0000:000000ed       _volmd                     00000001400000ed     fl2_decompress.obj
+ 0000:00000118       _volmd                     0000000140000118     fl2_decompress.obj
+ 0000:00000134       _volmd                     0000000140000134     fl2_decompress.obj
+ 0000:00000136       _volmd                     0000000140000136     fl2_decompress.obj
+ 0000:0000013b       _volmd                     000000014000013b     fl2_decompress.obj
+ 0000:00000143       _volmd                     0000000140000143     fl2_decompress.obj
+ 0000:0000014d       _volmd                     000000014000014d     fl2_decompress.obj
+ 0000:00000152       _volmd                     0000000140000152     fl2_decompress.obj
+ 0000:0000015b       _volmd                     000000014000015b     fl2_decompress.obj
+ 0000:00000227       _volmd                     0000000140000227     lzma2_enc.obj
+ 0000:00000246       _volmd                     0000000140000246     radix_bitpack.obj
+ 0000:00000248       _volmd                     0000000140000248     radix_bitpack.obj
+ 0000:0000027c       _volmd                     000000014000027c     radix_mf.obj
+ 0000:0000028c       _volmd                     000000014000028c     radix_mf.obj
+ 0000:0000028e       _volmd                     000000014000028e     radix_mf.obj
+ 0000:000002b8       _volmd                     00000001400002b8     radix_struct.obj
+ 0000:000002ba       _volmd                     00000001400002ba     radix_struct.obj
+ 0000:00000366       _volmd                     0000000140000366     mmLoader.obj
+ 0000:0000036b       _volmd                     000000014000036b     mmLoader.obj
+ 0000:0000039a       _volmd                     000000014000039a     unpacker.obj
+ 0001:00000000       moduleImageBase            0000000140001000     unpacker.obj
+ 0001:00000008       functionForwardingPtr      0000000140001008     unpacker.obj
+ 0001:00000010       sbox                       0000000140001010     aes.obj
+ 0001:00000110       rsbox                      0000000140001110     aes.obj
+ 0001:00000210       Rcon                       0000000140001210     aes.obj
+ 0001:00000220       ?notErrorCode@?1??FL2_getErrorString@@9@9 0000000140001220     fl2_common.obj
+ 0001:00000228       ?margin_divisor@?2??LZMA2_isChunkIncompressible@@9@9 0000000140001228     lzma2_enc.obj
+ 0001:00000240       FL2_highCParameters        0000000140001240     fl2_compress.obj
+ 0001:000003f8       ?chunk_min_avg@?1??LZMA2_compressBound@@9@9 00000001400013f8     lzma2_enc.obj
+ 0001:00000400       FL2_defaultCParameters     0000000140001400     fl2_compress.obj
+ 0001:000005b8       PRIME32_1                  00000001400015b8     xxhash.obj
+ 0001:000005c0       ?max_dist_table@?2??LZMA2_isChunkIncompressible@@9@9 00000001400015c0     lzma2_enc.obj
+ 0001:00000638       kLiteralNextStates         0000000140001638     lzma2_enc.obj
+ 0001:00000644       PRIME32_2                  0000000140001644     xxhash.obj
+ 0001:00000648       PRIME32_5                  0000000140001648     xxhash.obj
+ 0001:00000650       distance_table             0000000140001650     lzma2_enc.obj
+ 0001:00001650       ?max_dist_table@?2??LZMA_encodeChunkFast@@9@9 0000000140002650     lzma2_enc.obj
+ 0001:00001664       PRIME32_4                  0000000140002664     xxhash.obj
+ 0001:00001668       kMatchNextStates           0000000140002668     lzma2_enc.obj
+ 0001:00001674       g_one                      0000000140002674     xxhash.obj
+ 0001:00001678       ?dev_table@?2??LZMA2_isChunkIncompressible@@9@9 0000000140002678     lzma2_enc.obj
+ 0001:00001684       PRIME32_3                  0000000140002684     xxhash.obj
+ 0001:00001688       kShortRepNextStates        0000000140002688     lzma2_enc.obj
+ 0001:00001698       kRepNextStates             0000000140002698     lzma2_enc.obj
+ 0001:000016a8       PRIME64_3                  00000001400026a8     xxhash.obj
+ 0001:000017b0       PRIME64_5                  00000001400027b0     xxhash.obj
+ 0001:000017b8       PRIME64_1                  00000001400027b8     xxhash.obj
+ 0001:000017c0       PRIME64_4                  00000001400027c0     xxhash.obj
+ 0001:000017c8       PRIME64_2                  00000001400027c8     xxhash.obj
+ 0001:00001d40       ?iv@@3SDED                 0000000140002d40     unpacker.obj
+ 0001:00001d50       ?key@@3SDED                0000000140002d50     unpacker.obj
+ 0001:00001d70       KeyExpansion               0000000140002d70 f   aes.obj
+ 0001:000021d0       AddRoundKey                00000001400031d0 f   aes.obj
+ 0001:00002220       SubBytes                   0000000140003220 f   aes.obj
+ 0001:00002260       ShiftRows                  0000000140003260 f   aes.obj
+ 0001:000022d0       xtime                      00000001400032d0 f   aes.obj
+ 0001:000022f0       MixColumns                 00000001400032f0 f   aes.obj
+ 0001:000023e0       InvMixColumns              00000001400033e0 f   aes.obj
+ 0001:00002670       InvSubBytes                0000000140003670 f   aes.obj
+ 0001:000026b0       InvShiftRows               00000001400036b0 f   aes.obj
+ 0001:00002720       Cipher                     0000000140003720 f   aes.obj
+ 0001:00002980       InvCipher                  0000000140003980 f   aes.obj
+ 0001:00002b20       XorWithIv                  0000000140003b20 f   aes.obj
+ 0001:000034c0       IsError                    00000001400044c0 f   fl2_common.obj
+ 0001:00003594       $LN31                      0000000140004594     fl2_common.obj
+ 0001:000036a8       $LN23                      00000001400046a8     fl2_common.obj
+ 0001:00003700       ZSTD_highbit32             0000000140004700 f   fl2_compress.obj
+ 0001:00003700       ZSTD_highbit32             0000000140004700 f   lzma2_enc.obj
+ 0001:00003720       FL2_fillParameters         0000000140004720 f   fl2_compress.obj
+ 0001:00003790       FL2_createCCtx_internal    0000000140004790 f   fl2_compress.obj
+ 0001:00003ca0       FL2_buildRadixTable        0000000140004ca0 f   fl2_compress.obj
+ 0001:00003d40       FL2_compressRadixChunk     0000000140004d40 f   fl2_compress.obj
+ 0001:00003dc0       FL2_initEncoders           0000000140004dc0 f   fl2_compress.obj
+ 0001:00003e40       FL2_initProgress           0000000140004e40 f   fl2_compress.obj
+ 0001:00003e80       FL2_compressCurBlock_blocking 0000000140004e80 f   fl2_compress.obj
+ 0001:000043f0       FL2_compressCurBlock_async 00000001400053f0 f   fl2_compress.obj
+ 0001:00004410       FL2_compressCurBlock       0000000140005410 f   fl2_compress.obj
+ 0001:000045c0       FL2_getProp                00000001400055c0 f   fl2_compress.obj
+ 0001:00004640       FL2_preBeginFrame          0000000140005640 f   fl2_compress.obj
+ 0001:00004790       FL2_beginFrame             0000000140005790 f   fl2_compress.obj
+ 0001:00004ae0       FL2_endFrame               0000000140005ae0 f   fl2_compress.obj
+ 0001:00004b00       FL2_compressBuffer         0000000140005b00 f   fl2_compress.obj
+ 0001:000052e8       $LN108                     00000001400062e8     fl2_compress.obj
+ 0001:000053d8       $LN30                      00000001400063d8     fl2_compress.obj
+ 0001:000053d8       $LN32                      00000001400063d8     fl2_compress.obj
+ 0001:00005630       FL2_compressStream_internal 0000000140006630 f   fl2_compress.obj
+ 0001:00005890       FL2_compressStream_input   0000000140006890 f   fl2_compress.obj
+ 0001:000059d0       FL2_loopCheck              00000001400069d0 f   fl2_compress.obj
+ 0001:000061b0       FL2_writeEnd               00000001400071b0 f   fl2_compress.obj
+ 0001:000062e0       FL2_flushStream_internal   00000001400072e0 f   fl2_compress.obj
+ 0001:00006800       FL2_memoryUsage_internal   0000000140007800 f   fl2_compress.obj
+ 0001:00007180       FL2_decompressCtxBlock     0000000140008180 f   fl2_decompress.obj
+ 0001:000071d0       FL2_decompressCtxBlocksMt  00000001400081d0 f   fl2_decompress.obj
+ 0001:000076b0       FL2_resetMtBlocks          00000001400086b0 f   fl2_decompress.obj
+ 0001:00007710       FL2_decompressDCtxMt       0000000140008710 f   fl2_decompress.obj
+ 0001:00007c00       FL2_decompressInput        0000000140008c00 f   fl2_decompress.obj
+ 0001:00007e70       FL2_decompressOverlappedInput 0000000140008e70 f   fl2_decompress.obj
+ 0001:00007ff0       LZMA2_freeInbufNodeChain   0000000140008ff0 f   fl2_decompress.obj
+ 0001:00008050       LZMA2_freeExtraInbufNodes  0000000140009050 f   fl2_decompress.obj
+ 0001:000080b0       FL2_freeOutputBuffers      00000001400090b0 f   fl2_decompress.obj
+ 0001:00008130       FL2_lzma2DecMt_cleanup     0000000140009130 f   fl2_decompress.obj
+ 0001:000081a0       FL2_lzma2DecMt_free        00000001400091a0 f   fl2_decompress.obj
+ 0001:00008200       FL2_lzma2DecMt_init        0000000140009200 f   fl2_decompress.obj
+ 0001:000082a0       FL2_lzma2DecMt_initProp    00000001400092a0 f   fl2_decompress.obj
+ 0001:00008310       FL2_createInbufNode        0000000140009310 f   fl2_decompress.obj
+ 0001:00008380       FL2_lzma2DecMt_create      0000000140009380 f   fl2_decompress.obj
+ 0001:000085a0       FL2_parseMt                00000001400095a0 f   fl2_decompress.obj
+ 0001:00008750       FL2_decompressBlockMt      0000000140009750 f   fl2_decompress.obj
+ 0001:00008a80       FL2_writeStreamBlocks      0000000140009a80 f   fl2_decompress.obj
+ 0001:00008bc0       FL2_decompressBlock        0000000140009bc0 f   fl2_decompress.obj
+ 0001:00008c00       FL2_decompressBlocksMt     0000000140009c00 f   fl2_decompress.obj
+ 0001:00008db0       FL2_handleFinalChunkMt     0000000140009db0 f   fl2_decompress.obj
+ 0001:00008eb0       FL2_loadInputMt            0000000140009eb0 f   fl2_decompress.obj
+ 0001:00009190       FL2_decompressFailedMt     000000014000a190 f   fl2_decompress.obj
+ 0001:000092d0       FL2_decompressStreamMt     000000014000a2d0 f   fl2_decompress.obj
+ 0001:00009540       FL2_resetDStream           000000014000a540 f   fl2_decompress.obj
+ 0001:00009910       FL2_initDStream_prop       000000014000a910 f   fl2_decompress.obj
+ 0001:00009ad0       FL2_decompressStream_blocking 000000014000aad0 f   fl2_decompress.obj
+ 0001:00009e10       FL2_decompressStream_async 000000014000ae10 f   fl2_decompress.obj
+ 0001:00009fe0       FL2POOL_thread             000000014000afe0 f   fl2_pool.obj
+ 0001:0000a250       FL2POOL_join               000000014000b250 f   fl2_pool.obj
+ 0001:0000a5a0       worker                     000000014000b5a0 f   fl2_threading.obj
+ 0001:0000a7b0       LZMA_tryDummy              000000014000b7b0 f   lzma2_dec.obj
+ 0001:0000ac30       LZMA_decodeReal_3          000000014000bc30 f   lzma2_dec.obj
+ 0001:0000c310       LZMA_writeRem              000000014000d310 f   lzma2_dec.obj
+ 0001:0000c3b0       LZMA_decodeReal2           000000014000d3b0 f   lzma2_dec.obj
+ 0001:0000c4b0       LZMA_initDicAndState       000000014000d4b0 f   lzma2_dec.obj
+ 0001:0000c4e0       LZMA_init                  000000014000d4e0 f   lzma2_dec.obj
+ 0001:0000c500       LZMA_initStateReal         000000014000d500 f   lzma2_dec.obj
+ 0001:0000c560       LZMA_decodeToDic           000000014000d560 f   lzma2_dec.obj
+ 0001:0000c7c0       LZMA_freeDict              000000014000d7c0 f   lzma2_dec.obj
+ 0001:0000c840       LZMA2_dictBufSize          000000014000d840 f   lzma2_dec.obj
+ 0001:0000ca20       LZMA_updateWithUncompressed 000000014000da20 f   lzma2_dec.obj
+ 0001:0000ca80       LZMA2_nextChunkInfo        000000014000da80 f   lzma2_dec.obj
+ 0001:0000cc00       LZMA2_decodeChunkToDic     000000014000dc00 f   lzma2_dec.obj
+ 0001:0000d420       MEM_64bits                 000000014000e420 f   lzma2_enc.obj
+ 0001:0000d420       MEM_isLittleEndian         000000014000e420 f   lzma2_enc.obj
+ 0001:0000d420       MEM_64bits                 000000014000e420 f   radix_mf.obj
+ 0001:0000d430       MEM_read16                 000000014000e430 f   lzma2_enc.obj
+ 0001:0000d440       MEM_read32                 000000014000e440 f   lzma2_enc.obj
+ 0001:0000d440       MEM_readLE32               000000014000e440 f   lzma2_enc.obj
+ 0001:0000d440       MEM_read32                 000000014000e440 f   radix_bitpack.obj
+ 0001:0000d440       MEM_read32                 000000014000e440 f   radix_mf.obj
+ 0001:0000d440       MEM_read32                 000000014000e440 f   radix_struct.obj
+ 0001:0000d440       XXH_read32                 000000014000e440 f   xxhash.obj
+ 0001:0000d450       MEM_readST                 000000014000e450 f   lzma2_enc.obj
+ 0001:0000d450       XXH_read64                 000000014000e450 f   xxhash.obj
+ 0001:0000d460       MEM_swap32                 000000014000e460 f   lzma2_enc.obj
+ 0001:0000d470       ZSTD_NbCommonBytes         000000014000e470 f   lzma2_enc.obj
+ 0001:0000d480       ZSTD_count                 000000014000e480 f   lzma2_enc.obj
+ 0001:0000d530       RC_encodeBit0              000000014000e530 f   lzma2_enc.obj
+ 0001:0000d570       RC_encodeBit1              000000014000e570 f   lzma2_enc.obj
+ 0001:0000d5c0       RC_encodeBit               000000014000e5c0 f   lzma2_enc.obj
+ 0001:0000d5c0       RC_encodeBit               000000014000e5c0 f   range_enc.obj
+ 0001:0000d630       RC_flush                   000000014000e630 f   lzma2_enc.obj
+ 0001:0000d650       RMF_bitpackExtendMatch     000000014000e650 f   lzma2_enc.obj
+ 0001:0000d700       RMF_structuredExtendMatch  000000014000e700 f   lzma2_enc.obj
+ 0001:0000d7c0       RMF_getMatch               000000014000e7c0 f   lzma2_enc.obj
+ 0001:0000d8c0       RMF_getNextMatch           000000014000e8c0 f   lzma2_enc.obj
+ 0001:0000dad0       LZMA_getRepLen1Price       000000014000ead0 f   lzma2_enc.obj
+ 0001:0000db10       LZMA_getRepPrice           000000014000eb10 f   lzma2_enc.obj
+ 0001:0000dbb0       LZMA_getRepMatch0Price     000000014000ebb0 f   lzma2_enc.obj
+ 0001:0000dc00       LZMA_getLiteralPriceMatched 000000014000ec00 f   lzma2_enc.obj
+ 0001:0000dc90       LZMA_encodeLiteral         000000014000ec90 f   lzma2_enc.obj
+ 0001:0000ddf0       LZMA_encodeLiteralMatched  000000014000edf0 f   lzma2_enc.obj
+ 0001:0000df90       LZMA_encodeLiteralBuf      000000014000ef90 f   lzma2_enc.obj
+ 0001:0000e260       LZMA_lengthStates_SetPrices 000000014000f260 f   lzma2_enc.obj
+ 0001:0000e300       LZMA_lengthStates_updatePrices 000000014000f300 f   lzma2_enc.obj
+ 0001:0000e4b0       LZMA_encodeLength_MidHigh  000000014000f4b0 f   lzma2_enc.obj
+ 0001:0000e600       LZMA_encodeLength          000000014000f600 f   lzma2_enc.obj
+ 0001:0000e6b0       LZMA_encodeRepMatchShort   000000014000f6b0 f   lzma2_enc.obj
+ 0001:0000e840       LZMA_encodeRepMatchLong    000000014000f840 f   lzma2_enc.obj
+ 0001:0000ec40       LZMA_fastDistShift         000000014000fc40 f   lzma2_enc.obj
+ 0001:0000ec50       LZMA_fastDistResult        000000014000fc50 f   lzma2_enc.obj
+ 0001:0000ec70       LZMA_getDistSlot           000000014000fc70 f   lzma2_enc.obj
+ 0001:0000ecb0       LZMA_encodeNormalMatch     000000014000fcb0 f   lzma2_enc.obj
+ 0001:0000ef50       LZMA_encodeChunkFast       000000014000ff50 f   lzma2_enc.obj
+ 0001:00010170       LZMA_reverseOptimalChain   0000000140011170 f   lzma2_enc.obj
+ 0001:00010220       LZMA_getLiteralPrice       0000000140011220 f   lzma2_enc.obj
+ 0001:000102d0       LZMA_hashReset             00000001400112d0 f   lzma2_enc.obj
+ 0001:00010310       LZMA_hashCreate            0000000140011310 f   lzma2_enc.obj
+ 0001:000103d0       LZMA_hashGetMatches        00000001400113d0 f   lzma2_enc.obj
+ 0001:000105d0       LZMA_optimalParse          00000001400115d0 f   lzma2_enc.obj
+ 0001:00011750       LZMA_initMatchesPos0       0000000140012750 f   lzma2_enc.obj
+ 0001:00011880       LZMA_initMatchesPos0Best   0000000140012880 f   lzma2_enc.obj
+ 0001:00011c70       LZMA_initOptimizerPos0     0000000140012c70 f   lzma2_enc.obj
+ 0001:00012080       LZMA_encodeOptimumSequence 0000000140013080 f   lzma2_enc.obj
+ 0001:00013c00       LZMA_fillAlignPrices       0000000140014c00 f   lzma2_enc.obj
+ 0001:00013ea0       LZMA_fillDistancesPrices   0000000140014ea0 f   lzma2_enc.obj
+ 0001:000146f0       LZMA_encodeChunkBest       00000001400156f0 f   lzma2_enc.obj
+ 0001:00017540       LZMA_lengthStates_Reset    0000000140018540 f   lzma2_enc.obj
+ 0001:00017590       LZMA_encoderStates_Reset   0000000140018590 f   lzma2_enc.obj
+ 0001:00017a70       LZMA2_reset                0000000140018a70 f   lzma2_enc.obj
+ 0001:00017b10       LZMA_getLcLpPbCode         0000000140018b10 f   lzma2_enc.obj
+ 0001:00017b30       LZMA2_isqrt                0000000140018b30 f   lzma2_enc.obj
+ 0001:00017b70       LZMA2_isChunkIncompressible 0000000140018b70 f   lzma2_enc.obj
+ 0001:00017ef0       LZMA2_encodeChunk          0000000140018ef0 f   lzma2_enc.obj
+ 0001:0001fe60       RMF_handleRepeat           0000000140020e60 f   radix_bitpack.obj
+ 0001:0001ff10       RMF_handleRepeat2          0000000140020f10 f   radix_bitpack.obj
+ 0001:00020160       RMF_recurseListsBuffered   0000000140021160 f   radix_bitpack.obj
+ 0001:000206f0       RMF_recurseListsBound      00000001400216f0 f   radix_bitpack.obj
+ 0001:00020a40       RMF_bruteForce             0000000140021a40 f   radix_bitpack.obj
+ 0001:00020be0       RMF_recurseLists16         0000000140021be0 f   radix_bitpack.obj
+ 0001:00020fd0       RMF_getNextList_mt         0000000140021fd0 f   radix_bitpack.obj
+ 0001:00020fd0       RMF_getNextList_mt         0000000140021fd0 f   radix_struct.obj
+ 0001:00021000       RMF_getNextList_st         0000000140022000 f   radix_bitpack.obj
+ 0001:00021000       RMF_getNextList_st         0000000140022000 f   radix_struct.obj
+ 0001:00021390       RMF_initTailTable          0000000140022390 f   radix_mf.obj
+ 0001:000213e0       RMF_createBuilder          00000001400223e0 f   radix_mf.obj
+ 0001:00021480       RMF_freeBuilderTable       0000000140022480 f   radix_mf.obj
+ 0001:000214d0       RMF_createBuilderTable     00000001400224d0 f   radix_mf.obj
+ 0001:00021640       RMF_isStruct               0000000140022640 f   radix_mf.obj
+ 0001:00021650       RMF_clampParams            0000000140022650 f   radix_mf.obj
+ 0001:000216e0       RMF_calBufSize             00000001400226e0 f   radix_mf.obj
+ 0001:00021770       RMF_applyParameters_internal 0000000140022770 f   radix_mf.obj
+ 0001:00021a10       RMF_reduceDict             0000000140022a10 f   radix_mf.obj
+ 0001:00021a30       RMF_initListHeads          0000000140022a30 f   radix_mf.obj
+ 0001:00021ff0       RMF_handleRepeat           0000000140022ff0 f   radix_mf.obj
+ 0001:000220c0       RMF_bruteForceBuffered     00000001400230c0 f   radix_mf.obj
+ 0001:00022360       RMF_recurseListChunk_generic 0000000140023360 f   radix_mf.obj
+ 0001:00023b50       RMF_handleRepeat           0000000140024b50 f   radix_struct.obj
+ 0001:00023c50       RMF_handleRepeat2          0000000140024c50 f   radix_struct.obj
+ 0001:00023f70       RMF_recurseListsBuffered   0000000140024f70 f   radix_struct.obj
+ 0001:000244b0       RMF_recurseListsBound      00000001400254b0 f   radix_struct.obj
+ 0001:00024850       RMF_bruteForce             0000000140025850 f   radix_struct.obj
+ 0001:00024a20       RMF_recurseLists16         0000000140025a20 f   radix_struct.obj
+ 0001:00025680       utime                      0000000140026680 f   util.obj
+ 0001:00025690       time                       0000000140026690 f   util.obj
+ 0001:000256a0       UTIL_realloc               00000001400266a0 f   util.obj
+ 0001:00026200       XXH_malloc                 0000000140027200 f   xxhash.obj
+ 0001:00026210       XXH_free                   0000000140027210 f   xxhash.obj
+ 0001:00026220       XXH_memcpy                 0000000140027220 f   xxhash.obj
+ 0001:00026230       XXH_readLE32               0000000140027230 f   xxhash.obj
+ 0001:00026230       XXH_readLE32_align         0000000140027230 f   xxhash.obj
+ 0001:00026240       XXH_readBE32               0000000140027240 f   xxhash.obj
+ 0001:00026250       XXH_readLE64               0000000140027250 f   xxhash.obj
+ 0001:00026250       XXH_readLE64_align         0000000140027250 f   xxhash.obj
+ 0001:00026260       XXH_readBE64               0000000140027260 f   xxhash.obj
+ 0001:000262e0       XXH32_round                00000001400272e0 f   xxhash.obj
+ 0001:00026300       XXH32_endian_align         0000000140027300 f   xxhash.obj
+ 0001:000265c0       XXH64_round                00000001400275c0 f   xxhash.obj
+ 0001:000265f0       XXH64_mergeRound           00000001400275f0 f   xxhash.obj
+ 0001:00026630       XXH64_endian_align         0000000140027630 f   xxhash.obj
+ 0001:00026c20       XXH32_update_endian        0000000140027c20 f   xxhash.obj
+ 0001:00026fe0       XXH32_digest_endian        0000000140027fe0 f   xxhash.obj
+ 0001:00027160       XXH64_update_endian        0000000140028160 f   xxhash.obj
+ 0001:00027560       XXH64_digest_endian        0000000140028560 f   xxhash.obj
+ 0001:0002a9d0       ??$?0V<lambda_a1556366b095aa2150c935b933ca6911>@@@?$xor_string@$$CBD$0L@U?$integer_sequence@_K$0HINDLFOKCAMBKMDD@$0?HAKIOIGLIEJGGM@@std@@U?$integer_sequence@_K$0A@$00@2@@jm@@QEAA@V<lambda_a1556366b095aa2150c935b933ca6911>@@U?$integral_constant@_K$0L@@std@@U?$integer_sequence@_K$0A@$00@4@@Z 000000014002b9d0 f   msvcrt:pe_resolver_funcs.obj
+ 0001:0002be90       ??$?0V<lambda_b7a4393684037133104ef5c16751f4a8>@@@?$xor_string@$$CBD$0N@U?$integer_sequence@_K$0DGOABJPHLAINMJHJ@$0EBICPDAKLHJJMDEO@@std@@U?$integer_sequence@_K$0A@$00@2@@jm@@QEAA@V<lambda_b7a4393684037133104ef5c16751f4a8>@@U?$integral_constant@_K$0N@@std@@U?$integer_sequence@_K$0A@$00@4@@Z 000000014002ce90 f   kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002c784       $unwind$KeyExpansion       000000014002d784     aes.obj
+ 0001:0002c79c       $unwind$AES_init_ctx_iv    000000014002d79c     aes.obj
+ 0001:0002c79c       $unwind$FL2_createDStream  000000014002d79c     fl2_decompress.obj
+ 0001:0002c79c       $unwind$FL2_estimateDCtxSize 000000014002d79c     fl2_decompress.obj
+ 0001:0002c79c       $unwind$FL2_initDStream    000000014002d79c     fl2_decompress.obj
+ 0001:0002c79c       $unwind$FL2_pthread_join   000000014002d79c     fl2_threading.obj
+ 0001:0002c79c       $unwind$LZMA2_createECtx   000000014002d79c     lzma2_enc.obj
+ 0001:0002c79c       $unwind$RC_flush           000000014002d79c     lzma2_enc.obj
+ 0001:0002c79c       $unwind$UTIL_getTime       000000014002d79c     util.obj
+ 0001:0002c79c       $unwind$XXH32_freeState    000000014002d79c     xxhash.obj
+ 0001:0002c79c       $unwind$XXH64_freeState    000000014002d79c     xxhash.obj
+ 0001:0002c79c       $unwind$?ldr@detail@li@@YAPEBUPEB_LDR_DATA_T@win@12@XZ 000000014002d79c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002c79c       $unwind$?ldr_data_entry@detail@li@@YAPEBULDR_DATA_TABLE_ENTRY_T@win@12@XZ 000000014002d79c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002c7a4       $unwind$AddRoundKey        000000014002d7a4     aes.obj
+ 0001:0002c7a4       $unwind$LZMA_reverseOptimalChain 000000014002d7a4     lzma2_enc.obj
+ 0001:0002c7a4       $unwind$_GetModuleHandle   000000014002d7a4     mmLoader.obj
+ 0001:0002c7a4       $unwind$RMF_handleRepeat   000000014002d7a4     radix_bitpack.obj
+ 0001:0002c7ac       $unwind$MixColumns         000000014002d7ac     aes.obj
+ 0001:0002c7ac       $unwind$LZMA_fillAlignPrices 000000014002d7ac     lzma2_enc.obj
+ 0001:0002c7c0       $unwind$InvMixColumns      000000014002d7c0     aes.obj
+ 0001:0002c7d8       $unwind$Cipher             000000014002d7d8     aes.obj
+ 0001:0002c7d8       $unwind$LZMA_fillDistancesPrices 000000014002d7d8     lzma2_enc.obj
+ 0001:0002c7f0       $unwind$InvCipher          000000014002d7f0     aes.obj
+ 0001:0002c7f0       $unwind$FL2_copyCStreamOutput 000000014002d7f0     fl2_compress.obj
+ 0001:0002c7f0       $unwind$FL2_writeEnd       000000014002d7f0     fl2_compress.obj
+ 0001:0002c7f0       $unwind$FL2_lzma2DecMt_create 000000014002d7f0     fl2_decompress.obj
+ 0001:0002c7f0       $unwind$LZMA_decodeReal2   000000014002d7f0     lzma2_dec.obj
+ 0001:0002c7f0       $unwind$LZMA_encodeLength_MidHigh 000000014002d7f0     lzma2_enc.obj
+ 0001:0002c7f0       $unwind$LZMA_encodeLiteral 000000014002d7f0     lzma2_enc.obj
+ 0001:0002c804       $unwind$AES_CBC_encrypt_buffer 000000014002d804     aes.obj
+ 0001:0002c814       $chain$0$AES_CBC_encrypt_buffer 000000014002d814     aes.obj
+ 0001:0002c828       $chain$1$AES_CBC_encrypt_buffer 000000014002d828     aes.obj
+ 0001:0002c838       $unwind$AES_CBC_decrypt_buffer 000000014002d838     aes.obj
+ 0001:0002c844       $chain$1$AES_CBC_decrypt_buffer 000000014002d844     aes.obj
+ 0001:0002c85c       $chain$2$AES_CBC_decrypt_buffer 000000014002d85c     aes.obj
+ 0001:0002c86c       $unwind$AES_CTR_xcrypt_buffer 000000014002d86c     aes.obj
+ 0001:0002c878       $chain$5$AES_CTR_xcrypt_buffer 000000014002d878     aes.obj
+ 0001:0002c8a0       $chain$6$AES_CTR_xcrypt_buffer 000000014002d8a0     aes.obj
+ 0001:0002c8b0       $unwind$DICT_init          000000014002d8b0     dict_buffer.obj
+ 0001:0002c8c8       $unwind$DICT_destruct      000000014002d8c8     dict_buffer.obj
+ 0001:0002c8c8       $unwind$DICT_get           000000014002d8c8     dict_buffer.obj
+ 0001:0002c8c8       $unwind$DICT_shift         000000014002d8c8     dict_buffer.obj
+ 0001:0002c8c8       $unwind$FL2_compressStream_internal 000000014002d8c8     fl2_compress.obj
+ 0001:0002c8c8       $unwind$FL2_estimateCStreamSize_byParams 000000014002d8c8     fl2_compress.obj
+ 0001:0002c8c8       $unwind$FL2_flushStream_internal 000000014002d8c8     fl2_compress.obj
+ 0001:0002c8c8       $unwind$FL2_getDictionaryBuffer 000000014002d8c8     fl2_compress.obj
+ 0001:0002c8c8       $unwind$FL2_getNextCompressedBuffer 000000014002d8c8     fl2_compress.obj
+ 0001:0002c8c8       $unwind$FL2_initEncoders   000000014002d8c8     fl2_compress.obj
+ 0001:0002c8c8       $unwind$FL2_setCStreamTimeout 000000014002d8c8     fl2_compress.obj
+ 0001:0002c8c8       $unwind$FL2_decompressBlock 000000014002d8c8     fl2_decompress.obj
+ 0001:0002c8c8       $unwind$FL2_initDStream_withProp 000000014002d8c8     fl2_decompress.obj
+ 0001:0002c8c8       $unwind$FL2_setDStreamTimeout 000000014002d8c8     fl2_decompress.obj
+ 0001:0002c8c8       $unwind$LZMA_updateWithUncompressed 000000014002d8c8     lzma2_dec.obj
+ 0001:0002c8c8       $unwind$LZMA_hashCreate    000000014002d8c8     lzma2_enc.obj
+ 0001:0002c8c8       $unwind$ExecuteTLSCallback 000000014002d8c8     mmLoader.obj
+ 0001:0002c8c8       $unwind$RMF_memoryUsage    000000014002d8c8     radix_mf.obj
+ 0001:0002c8c8       $unwind$RC_encodeDirect    000000014002d8c8     range_enc.obj
+ 0001:0002c8c8       $unwind$UTIL_getSpanTimeMicro 000000014002d8c8     util.obj
+ 0001:0002c8c8       $unwind$UTIL_getSpanTimeNano 000000014002d8c8     util.obj
+ 0001:0002c8d4       $unwind$DICT_put           000000014002d8d4     dict_buffer.obj
+ 0001:0002c8d4       $unwind$FL2_memoryUsage_internal 000000014002d8d4     fl2_compress.obj
+ 0001:0002c8d4       $unwind$FL2_handleFinalChunkMt 000000014002d8d4     fl2_decompress.obj
+ 0001:0002c8d4       $unwind$LZMA2_reset        000000014002d8d4     lzma2_enc.obj
+ 0001:0002c8d4       $unwind$LZMA_encodeRepMatchShort 000000014002d8d4     lzma2_enc.obj
+ 0001:0002c8e4       $unwind$DICT_getBlock      000000014002d8e4     dict_buffer.obj
+ 0001:0002c8e4       $unwind$FL2_CCtx_setParameter 000000014002d8e4     fl2_compress.obj
+ 0001:0002c8e4       $unwind$FL2_compressCurBlock_async 000000014002d8e4     fl2_compress.obj
+ 0001:0002c8e4       $unwind$FL2_estimateCCtxSize_byParams 000000014002d8e4     fl2_compress.obj
+ 0001:0002c8e4       $unwind$FL2_updateDictionary 000000014002d8e4     fl2_compress.obj
+ 0001:0002c8e4       $unwind$FL2_waitCStream    000000014002d8e4     fl2_compress.obj
+ 0001:0002c8e4       $unwind$FL2_createDStreamMt 000000014002d8e4     fl2_decompress.obj
+ 0001:0002c8e4       $unwind$FL2_createInbufNode 000000014002d8e4     fl2_decompress.obj
+ 0001:0002c8e4       $unwind$FL2_decompressStream_async 000000014002d8e4     fl2_decompress.obj
+ 0001:0002c8e4       $unwind$FL2_estimateDStreamSize 000000014002d8e4     fl2_decompress.obj
+ 0001:0002c8e4       $unwind$FL2_waitDStream    000000014002d8e4     fl2_decompress.obj
+ 0001:0002c8e4       $unwind$worker             000000014002d8e4     fl2_threading.obj
+ 0001:0002c8e4       $unwind$LZMA_destructDCtx  000000014002d8e4     lzma2_dec.obj
+ 0001:0002c8e4       $unwind$LZMA_freeDict      000000014002d8e4     lzma2_dec.obj
+ 0001:0002c8e4       $unwind$RMF_createBuilder  000000014002d8e4     radix_mf.obj
+ 0001:0002c8e4       $unwind$UTIL_clockSpanMicro 000000014002d8e4     util.obj
+ 0001:0002c8e4       $unwind$UTIL_clockSpanNano 000000014002d8e4     util.obj
+ 0001:0002c8e4       $unwind$UTIL_getFileStat   000000014002d8e4     util.obj
+ 0001:0002c8e4       $unwind$UTIL_realloc       000000014002d8e4     util.obj
+ 0001:0002c8e4       $unwind$UTIL_waitForNextTick 000000014002d8e4     util.obj
+ 0001:0002c8ec       $unwind$FL2_createCCtx_internal 000000014002d8ec     fl2_compress.obj
+ 0001:0002c904       $unwind$FL2_freeCCtx       000000014002d904     fl2_compress.obj
+ 0001:0002c90c       $chain$3$FL2_freeCCtx      000000014002d90c     fl2_compress.obj
+ 0001:0002c92c       $chain$4$FL2_freeCCtx      000000014002d92c     fl2_compress.obj
+ 0001:0002c940       $chain$5$FL2_freeCCtx      000000014002d940     fl2_compress.obj
+ 0001:0002c950       $chain$6$FL2_freeCCtx      000000014002d950     fl2_compress.obj
+ 0001:0002c960       $unwind$FL2_buildRadixTable 000000014002d960     fl2_compress.obj
+ 0001:0002c960       $unwind$RMF_getMatch       000000014002d960     lzma2_enc.obj
+ 0001:0002c960       $unwind$RMF_buildTable     000000014002d960     radix_mf.obj
+ 0001:0002c96c       $unwind$FL2_compressRadixChunk 000000014002d96c     fl2_compress.obj
+ 0001:0002c974       $unwind$FL2_compressCurBlock_blocking 000000014002d974     fl2_compress.obj
+ 0001:0002c990       $unwind$FL2_compressCurBlock 000000014002d990     fl2_compress.obj
+ 0001:0002c9a0       $chain$1$FL2_compressCurBlock 000000014002d9a0     fl2_compress.obj
+ 0001:0002c9b4       $chain$2$FL2_compressCurBlock 000000014002d9b4     fl2_compress.obj
+ 0001:0002c9c4       $unwind$FL2_preBeginFrame  000000014002d9c4     fl2_compress.obj
+ 0001:0002c9d0       $chain$0$FL2_preBeginFrame 000000014002d9d0     fl2_compress.obj
+ 0001:0002c9e4       $chain$2$FL2_preBeginFrame 000000014002d9e4     fl2_compress.obj
+ 0001:0002c9fc       $chain$3$FL2_preBeginFrame 000000014002d9fc     fl2_compress.obj
+ 0001:0002ca0c       $chain$4$FL2_preBeginFrame 000000014002da0c     fl2_compress.obj
+ 0001:0002ca1c       $unwind$FL2_beginFrame     000000014002da1c     fl2_compress.obj
+ 0001:0002ca38       $unwind$FL2_compressBuffer 000000014002da38     fl2_compress.obj
+ 0001:0002ca44       $chain$5$FL2_compressBuffer 000000014002da44     fl2_compress.obj
+ 0001:0002ca6c       $chain$7$FL2_compressBuffer 000000014002da6c     fl2_compress.obj
+ 0001:0002ca94       $unwind$FL2_compressCCtx   000000014002da94     fl2_compress.obj
+ 0001:0002caac       $unwind$FL2_compress       000000014002daac     fl2_compress.obj
+ 0001:0002caac       $unwind$FL2_compressMt     000000014002daac     fl2_compress.obj
+ 0001:0002caac       $unwind$FL2_decompress     000000014002daac     fl2_decompress.obj
+ 0001:0002caac       $unwind$FL2_decompressMt   000000014002daac     fl2_decompress.obj
+ 0001:0002cac4       $unwind$FL2_initCStream    000000014002dac4     fl2_compress.obj
+ 0001:0002cad4       $unwind$FL2_compressStream_input 000000014002dad4     fl2_compress.obj
+ 0001:0002cad4       $unwind$LZMA_encodeLength  000000014002dad4     lzma2_enc.obj
+ 0001:0002cae0       $chain$0$FL2_compressStream_input 000000014002dae0     fl2_compress.obj
+ 0001:0002caf4       $chain$1$FL2_compressStream_input 000000014002daf4     fl2_compress.obj
+ 0001:0002cb04       $chain$2$FL2_compressStream_input 000000014002db04     fl2_compress.obj
+ 0001:0002cb18       $unwind$FL2_cancelCStream  000000014002db18     fl2_compress.obj
+ 0001:0002cb18       $unwind$FL2_loopCheck      000000014002db18     fl2_compress.obj
+ 0001:0002cb18       $unwind$LZMA2_freeExtraInbufNodes 000000014002db18     fl2_decompress.obj
+ 0001:0002cb20       $chain$0$FL2_loopCheck     000000014002db20     fl2_compress.obj
+ 0001:0002cb34       $chain$1$FL2_loopCheck     000000014002db34     fl2_compress.obj
+ 0001:0002cb48       $chain$2$FL2_loopCheck     000000014002db48     fl2_compress.obj
+ 0001:0002cb5c       $chain$3$FL2_loopCheck     000000014002db5c     fl2_compress.obj
+ 0001:0002cb6c       $chain$4$FL2_loopCheck     000000014002db6c     fl2_compress.obj
+ 0001:0002cb7c       $chain$5$FL2_loopCheck     000000014002db7c     fl2_compress.obj
+ 0001:0002cb8c       $unwind$FL2_compressStream 000000014002db8c     fl2_compress.obj
+ 0001:0002cbac       $chain$0$FL2_cancelCStream 000000014002dbac     fl2_compress.obj
+ 0001:0002cbc0       $chain$1$FL2_cancelCStream 000000014002dbc0     fl2_compress.obj
+ 0001:0002cbd4       $chain$2$FL2_cancelCStream 000000014002dbd4     fl2_compress.obj
+ 0001:0002cbe4       $chain$3$FL2_cancelCStream 000000014002dbe4     fl2_compress.obj
+ 0001:0002cbf4       $unwind$FL2_remainingOutputSize 000000014002dbf4     fl2_compress.obj
+ 0001:0002cbf4       $unwind$LZMA_writeRem      000000014002dbf4     lzma2_dec.obj
+ 0001:0002cbf4       $unwind$RelocateModuleBase 000000014002dbf4     mmLoader.obj
+ 0001:0002cbf4       $unwind$XXH32              000000014002dbf4     xxhash.obj
+ 0001:0002cbfc       $chain$0$FL2_remainingOutputSize 000000014002dbfc     fl2_compress.obj
+ 0001:0002cc10       $chain$1$FL2_remainingOutputSize 000000014002dc10     fl2_compress.obj
+ 0001:0002cc20       $unwind$FL2_flushStream    000000014002dc20     fl2_compress.obj
+ 0001:0002cc44       $unwind$FL2_endStream      000000014002dc44     fl2_compress.obj
+ 0001:0002cc64       $chain$5$FL2_endStream     000000014002dc64     fl2_compress.obj
+ 0001:0002cc78       $chain$6$FL2_endStream     000000014002dc78     fl2_compress.obj
+ 0001:0002cc88       $unwind$FL2_estimateCCtxSize_usingCCtx 000000014002dc88     fl2_compress.obj
+ 0001:0002cc88       $unwind$FL2_estimateCStreamSize_usingCStream 000000014002dc88     fl2_compress.obj
+ 0001:0002cc88       $unwind$FL2_decompressCtxBlock 000000014002dc88     fl2_decompress.obj
+ 0001:0002cc88       $unwind$FL2_pthread_create 000000014002dc88     fl2_threading.obj
+ 0001:0002cc90       $unwind$FL2_estimateCStreamSize 000000014002dc90     fl2_compress.obj
+ 0001:0002cc90       $unwind$LZMA2_initDecoder  000000014002dc90     lzma2_dec.obj
+ 0001:0002cca4       $chain$0$FL2_estimateCStreamSize 000000014002dca4     fl2_compress.obj
+ 0001:0002ccb8       $chain$1$FL2_estimateCStreamSize 000000014002dcb8     fl2_compress.obj
+ 0001:0002ccc8       $unwind$FL2_findDecompressedSize 000000014002dcc8     fl2_decompress.obj
+ 0001:0002ccdc       $unwind$FL2_createDCtxMt   000000014002dcdc     fl2_decompress.obj
+ 0001:0002ccdc       $unwind$FL2_freeDCtx       000000014002dcdc     fl2_decompress.obj
+ 0001:0002cce4       $chain$3$FL2_createDCtxMt  000000014002dce4     fl2_decompress.obj
+ 0001:0002cd04       $chain$5$FL2_createDCtxMt  000000014002dd04     fl2_decompress.obj
+ 0001:0002cd24       $chain$3$FL2_freeDCtx      000000014002dd24     fl2_decompress.obj
+ 0001:0002cd44       $chain$4$FL2_freeDCtx      000000014002dd44     fl2_decompress.obj
+ 0001:0002cd54       $unwind$FL2_decompressCtxBlocksMt 000000014002dd54     fl2_decompress.obj
+ 0001:0002cd6c       $unwind$FL2_decompressDCtxMt 000000014002dd6c     fl2_decompress.obj
+ 0001:0002cd88       $unwind$FL2_decompressDCtx 000000014002dd88     fl2_decompress.obj
+ 0001:0002cda4       $unwind$FL2_decompressInput 000000014002dda4     fl2_decompress.obj
+ 0001:0002cdb0       $chain$0$FL2_decompressInput 000000014002ddb0     fl2_decompress.obj
+ 0001:0002cdc4       $chain$5$FL2_decompressInput 000000014002ddc4     fl2_decompress.obj
+ 0001:0002cde8       $chain$6$FL2_decompressInput 000000014002dde8     fl2_decompress.obj
+ 0001:0002cdfc       $chain$7$FL2_decompressInput 000000014002ddfc     fl2_decompress.obj
+ 0001:0002ce0c       $unwind$FL2_decompressOverlappedInput 000000014002de0c     fl2_decompress.obj
+ 0001:0002ce24       $unwind$LZMA2_freeInbufNodeChain 000000014002de24     fl2_decompress.obj
+ 0001:0002ce30       $chain$1$LZMA2_freeInbufNodeChain 000000014002de30     fl2_decompress.obj
+ 0001:0002ce48       $chain$2$LZMA2_freeInbufNodeChain 000000014002de48     fl2_decompress.obj
+ 0001:0002ce58       $chain$0$LZMA2_freeExtraInbufNodes 000000014002de58     fl2_decompress.obj
+ 0001:0002ce6c       $chain$1$LZMA2_freeExtraInbufNodes 000000014002de6c     fl2_decompress.obj
+ 0001:0002ce7c       $unwind$FL2_freeOutputBuffers 000000014002de7c     fl2_decompress.obj
+ 0001:0002ce8c       $chain$0$FL2_freeOutputBuffers 000000014002de8c     fl2_decompress.obj
+ 0001:0002cea0       $chain$1$FL2_freeOutputBuffers 000000014002dea0     fl2_decompress.obj
+ 0001:0002ceb0       $unwind$FL2_lzma2DecMt_cleanup 000000014002deb0     fl2_decompress.obj
+ 0001:0002ceb8       $chain$0$FL2_lzma2DecMt_cleanup 000000014002deb8     fl2_decompress.obj
+ 0001:0002cecc       $chain$1$FL2_lzma2DecMt_cleanup 000000014002decc     fl2_decompress.obj
+ 0001:0002cedc       $unwind$FL2_lzma2DecMt_free 000000014002dedc     fl2_decompress.obj
+ 0001:0002cedc       $unwind$LZMA2_freeECtx     000000014002dedc     lzma2_enc.obj
+ 0001:0002cedc       $unwind$FreeMemModuleInternal 000000014002dedc     mmLoader.obj
+ 0001:0002cedc       $unwind$UnmapMemModule     000000014002dedc     mmLoader.obj
+ 0001:0002cee4       $chain$0$FL2_lzma2DecMt_free 000000014002dee4     fl2_decompress.obj
+ 0001:0002cef8       $chain$1$FL2_lzma2DecMt_free 000000014002def8     fl2_decompress.obj
+ 0001:0002cf08       $unwind$FL2_lzma2DecMt_init 000000014002df08     fl2_decompress.obj
+ 0001:0002cf08       $unwind$FreeMemModule      000000014002df08     mmLoader.obj
+ 0001:0002cf10       $chain$0$FL2_lzma2DecMt_init 000000014002df10     fl2_decompress.obj
+ 0001:0002cf24       $chain$1$FL2_lzma2DecMt_init 000000014002df24     fl2_decompress.obj
+ 0001:0002cf38       $chain$2$FL2_lzma2DecMt_init 000000014002df38     fl2_decompress.obj
+ 0001:0002cf48       $chain$3$FL2_lzma2DecMt_init 000000014002df48     fl2_decompress.obj
+ 0001:0002cf58       $unwind$FL2_parseMt        000000014002df58     fl2_decompress.obj
+ 0001:0002cf64       $chain$1$FL2_parseMt       000000014002df64     fl2_decompress.obj
+ 0001:0002cf7c       $chain$5$FL2_parseMt       000000014002df7c     fl2_decompress.obj
+ 0001:0002cf9c       $chain$6$FL2_parseMt       000000014002df9c     fl2_decompress.obj
+ 0001:0002cfac       $chain$7$FL2_parseMt       000000014002dfac     fl2_decompress.obj
+ 0001:0002cfbc       $unwind$FL2_decompressBlockMt 000000014002dfbc     fl2_decompress.obj
+ 0001:0002cfcc       $chain$2$FL2_decompressBlockMt 000000014002dfcc     fl2_decompress.obj
+ 0001:0002cfe8       $unwind$FL2_writeStreamBlocks 000000014002dfe8     fl2_decompress.obj
+ 0001:0002cffc       $chain$0$FL2_writeStreamBlocks 000000014002dffc     fl2_decompress.obj
+ 0001:0002d010       $chain$1$FL2_writeStreamBlocks 000000014002e010     fl2_decompress.obj
+ 0001:0002d020       $unwind$FL2_decompressBlocksMt 000000014002e020     fl2_decompress.obj
+ 0001:0002d020       $unwind$LZMA_encodeLiteralBuf 000000014002e020     lzma2_enc.obj
+ 0001:0002d020       $unwind$LZMA_encodeLiteralMatched 000000014002e020     lzma2_enc.obj
+ 0001:0002d020       $unwind$LoadMemModule      000000014002e020     mmLoader.obj
+ 0001:0002d038       $unwind$FL2_loadInputMt    000000014002e038     fl2_decompress.obj
+ 0001:0002d054       $unwind$FL2_decompressFailedMt 000000014002e054     fl2_decompress.obj
+ 0001:0002d068       $chain$1$FL2_decompressFailedMt 000000014002e068     fl2_decompress.obj
+ 0001:0002d07c       $chain$2$FL2_decompressFailedMt 000000014002e07c     fl2_decompress.obj
+ 0001:0002d08c       $unwind$FL2_decompressStreamMt 000000014002e08c     fl2_decompress.obj
+ 0001:0002d09c       $chain$1$FL2_decompressStreamMt 000000014002e09c     fl2_decompress.obj
+ 0001:0002d0b4       $chain$2$FL2_decompressStreamMt 000000014002e0b4     fl2_decompress.obj
+ 0001:0002d0c8       $chain$3$FL2_decompressStreamMt 000000014002e0c8     fl2_decompress.obj
+ 0001:0002d0d8       $chain$4$FL2_decompressStreamMt 000000014002e0d8     fl2_decompress.obj
+ 0001:0002d0d8       $chain$7$FL2_decompressStreamMt 000000014002e0d8     fl2_decompress.obj
+ 0001:0002d0e8       $chain$5$FL2_decompressStreamMt 000000014002e0e8     fl2_decompress.obj
+ 0001:0002d100       $chain$6$FL2_decompressStreamMt 000000014002e100     fl2_decompress.obj
+ 0001:0002d114       $chain$0$FL2_createDStreamMt 000000014002e114     fl2_decompress.obj
+ 0001:0002d128       $chain$1$FL2_createDStreamMt 000000014002e128     fl2_decompress.obj
+ 0001:0002d138       $unwind$FL2_freeDStream    000000014002e138     fl2_decompress.obj
+ 0001:0002d140       $chain$1$FL2_freeDStream   000000014002e140     fl2_decompress.obj
+ 0001:0002d158       $chain$2$FL2_freeDStream   000000014002e158     fl2_decompress.obj
+ 0001:0002d168       $unwind$FL2_cancelDStream  000000014002e168     fl2_decompress.obj
+ 0001:0002d174       $chain$0$FL2_cancelDStream 000000014002e174     fl2_decompress.obj
+ 0001:0002d188       $chain$1$FL2_cancelDStream 000000014002e188     fl2_decompress.obj
+ 0001:0002d198       $unwind$FL2_initDStream_prop 000000014002e198     fl2_decompress.obj
+ 0001:0002d1a0       $unwind$FL2_decompressStream_blocking 000000014002e1a0     fl2_decompress.obj
+ 0001:0002d1bc       $unwind$FL2_decompressStream 000000014002e1bc     fl2_decompress.obj
+ 0001:0002d1c8       $chain$0$FL2_decompressStream 000000014002e1c8     fl2_decompress.obj
+ 0001:0002d1dc       $chain$1$FL2_decompressStream 000000014002e1dc     fl2_decompress.obj
+ 0001:0002d1ec       $unwind$FL2POOL_thread     000000014002e1ec     fl2_pool.obj
+ 0001:0002d1fc       $unwind$FL2POOL_create     000000014002e1fc     fl2_pool.obj
+ 0001:0002d208       $chain$5$FL2POOL_create    000000014002e208     fl2_pool.obj
+ 0001:0002d230       $chain$7$FL2POOL_create    000000014002e230     fl2_pool.obj
+ 0001:0002d258       $chain$8$FL2POOL_create    000000014002e258     fl2_pool.obj
+ 0001:0002d268       $unwind$FL2POOL_join       000000014002e268     fl2_pool.obj
+ 0001:0002d268       $unwind$RMF_getNextMatch   000000014002e268     lzma2_enc.obj
+ 0001:0002d278       $unwind$FL2POOL_free       000000014002e278     fl2_pool.obj
+ 0001:0002d280       $chain$1$FL2POOL_free      000000014002e280     fl2_pool.obj
+ 0001:0002d298       $chain$2$FL2POOL_free      000000014002e298     fl2_pool.obj
+ 0001:0002d2ac       $chain$3$FL2POOL_free      000000014002e2ac     fl2_pool.obj
+ 0001:0002d2bc       $chain$4$FL2POOL_free      000000014002e2bc     fl2_pool.obj
+ 0001:0002d2cc       $unwind$FL2POOL_add        000000014002e2cc     fl2_pool.obj
+ 0001:0002d2cc       $unwind$FL2POOL_addRange   000000014002e2cc     fl2_pool.obj
+ 0001:0002d2e0       $chain$0$FL2POOL_addRange  000000014002e2e0     fl2_pool.obj
+ 0001:0002d2f4       $chain$1$FL2POOL_addRange  000000014002e2f4     fl2_pool.obj
+ 0001:0002d304       $chain$0$FL2POOL_add       000000014002e304     fl2_pool.obj
+ 0001:0002d318       $chain$1$FL2POOL_add       000000014002e318     fl2_pool.obj
+ 0001:0002d328       $unwind$FL2POOL_waitAll    000000014002e328     fl2_pool.obj
+ 0001:0002d33c       $chain$0$FL2POOL_waitAll   000000014002e33c     fl2_pool.obj
+ 0001:0002d350       $chain$1$FL2POOL_waitAll   000000014002e350     fl2_pool.obj
+ 0001:0002d350       $chain$3$FL2POOL_waitAll   000000014002e350     fl2_pool.obj
+ 0001:0002d360       $chain$2$FL2POOL_waitAll   000000014002e360     fl2_pool.obj
+ 0001:0002d374       $unwind$FL2_checkNbThreads 000000014002e374     fl2_threading.obj
+ 0001:0002d384       $unwind$LZMA_tryDummy      000000014002e384     lzma2_dec.obj
+ 0001:0002d384       $unwind$XXH64              000000014002e384     xxhash.obj
+ 0001:0002d39c       $unwind$LZMA_decodeReal_3  000000014002e39c     lzma2_dec.obj
+ 0001:0002d3b4       $chain$0$LZMA_writeRem     000000014002e3b4     lzma2_dec.obj
+ 0001:0002d3c8       $chain$1$LZMA_writeRem     000000014002e3c8     lzma2_dec.obj
+ 0001:0002d3dc       $chain$2$LZMA_writeRem     000000014002e3dc     lzma2_dec.obj
+ 0001:0002d3ec       $chain$3$LZMA_writeRem     000000014002e3ec     lzma2_dec.obj
+ 0001:0002d3fc       $unwind$LZMA_initStateReal 000000014002e3fc     lzma2_dec.obj
+ 0001:0002d3fc       $unwind$LZMA_encoderStates_Reset 000000014002e3fc     lzma2_enc.obj
+ 0001:0002d3fc       $unwind$LZMA_lengthStates_Reset 000000014002e3fc     lzma2_enc.obj
+ 0001:0002d404       $unwind$LZMA_decodeToDic   000000014002e404     lzma2_dec.obj
+ 0001:0002d404       $unwind$LZMA_encodeNormalMatch 000000014002e404     lzma2_enc.obj
+ 0001:0002d404       $unwind$LZMA_lengthStates_updatePrices 000000014002e404     lzma2_enc.obj
+ 0001:0002d404       $unwind$RMF_integrityCheck 000000014002e404     radix_mf.obj
+ 0001:0002d420       $chain$0$LZMA2_initDecoder 000000014002e420     lzma2_dec.obj
+ 0001:0002d434       $chain$1$LZMA2_initDecoder 000000014002e434     lzma2_dec.obj
+ 0001:0002d444       $unwind$LZMA2_nextChunkInfo 000000014002e444     lzma2_dec.obj
+ 0001:0002d444       $unwind$LZMA_getLiteralPriceMatched 000000014002e444     lzma2_enc.obj
+ 0001:0002d444       $unwind$RMF_handleRepeat2  000000014002e444     radix_bitpack.obj
+ 0001:0002d450       $unwind$LZMA2_decodeChunkToDic 000000014002e450     lzma2_dec.obj
+ 0001:0002d46c       $unwind$LZMA2_decodeToDic  000000014002e46c     lzma2_dec.obj
+ 0001:0002d488       $unwind$LZMA2_decodeToBuf  000000014002e488     lzma2_dec.obj
+ 0001:0002d4a0       $unwind$LZMA2_getUnpackSize 000000014002e4a0     lzma2_dec.obj
+ 0001:0002d4a0       $unwind$LZMA2_parseInput   000000014002e4a0     lzma2_dec.obj
+ 0001:0002d4a0       $unwind$LZMA_lengthStates_SetPrices 000000014002e4a0     lzma2_enc.obj
+ 0001:0002d4a0       $unwind$RMF_bitpackExtendMatch 000000014002e4a0     lzma2_enc.obj
+ 0001:0002d4a0       $unwind$RMF_structuredExtendMatch 000000014002e4a0     lzma2_enc.obj
+ 0001:0002d4a0       $unwind$_GetProcAddress    000000014002e4a0     mmLoader.obj
+ 0001:0002d4a0       $unwind$RMF_handleRepeat   000000014002e4a0     radix_mf.obj
+ 0001:0002d4b0       $chain$0$LZMA_encodeLength 000000014002e4b0     lzma2_enc.obj
+ 0001:0002d4c4       $chain$1$LZMA_encodeLength 000000014002e4c4     lzma2_enc.obj
+ 0001:0002d4d4       $unwind$LZMA_encodeRepMatchLong 000000014002e4d4     lzma2_enc.obj
+ 0001:0002d4e8       $chain$1$LZMA_encodeRepMatchLong 000000014002e4e8     lzma2_enc.obj
+ 0001:0002d500       $chain$2$LZMA_encodeRepMatchLong 000000014002e500     lzma2_enc.obj
+ 0001:0002d514       $unwind$LZMA_encodeChunkFast 000000014002e514     lzma2_enc.obj
+ 0001:0002d52c       $unwind$LZMA_getLiteralPrice 000000014002e52c     lzma2_enc.obj
+ 0001:0002d534       $unwind$LZMA_hashGetMatches 000000014002e534     lzma2_enc.obj
+ 0001:0002d53c       $chain$3$LZMA_hashGetMatches 000000014002e53c     lzma2_enc.obj
+ 0001:0002d55c       $chain$5$LZMA_hashGetMatches 000000014002e55c     lzma2_enc.obj
+ 0001:0002d574       $chain$6$LZMA_hashGetMatches 000000014002e574     lzma2_enc.obj
+ 0001:0002d588       $chain$7$LZMA_hashGetMatches 000000014002e588     lzma2_enc.obj
+ 0001:0002d598       $chain$8$LZMA_hashGetMatches 000000014002e598     lzma2_enc.obj
+ 0001:0002d5a8       $chain$9$LZMA_hashGetMatches 000000014002e5a8     lzma2_enc.obj
+ 0001:0002d5b8       $unwind$LZMA_optimalParse  000000014002e5b8     lzma2_enc.obj
+ 0001:0002d5d0       $unwind$LZMA_initMatchesPos0 000000014002e5d0     lzma2_enc.obj
+ 0001:0002d5d8       $chain$3$LZMA_initMatchesPos0 000000014002e5d8     lzma2_enc.obj
+ 0001:0002d5f8       $chain$4$LZMA_initMatchesPos0 000000014002e5f8     lzma2_enc.obj
+ 0001:0002d608       $unwind$LZMA_initMatchesPos0Best 000000014002e608     lzma2_enc.obj
+ 0001:0002d618       $chain$4$LZMA_initMatchesPos0Best 000000014002e618     lzma2_enc.obj
+ 0001:0002d63c       $chain$5$LZMA_initMatchesPos0Best 000000014002e63c     lzma2_enc.obj
+ 0001:0002d64c       $unwind$LZMA_initOptimizerPos0 000000014002e64c     lzma2_enc.obj
+ 0001:0002d664       $unwind$LZMA_encodeOptimumSequence 000000014002e664     lzma2_enc.obj
+ 0001:0002d67c       $unwind$LZMA_encodeChunkBest 000000014002e67c     lzma2_enc.obj
+ 0001:0002d694       $unwind$LZMA2_isChunkIncompressible 000000014002e694     lzma2_enc.obj
+ 0001:0002d6b0       $chain$0$LZMA2_isChunkIncompressible 000000014002e6b0     lzma2_enc.obj
+ 0001:0002d6c4       $chain$1$LZMA2_isChunkIncompressible 000000014002e6c4     lzma2_enc.obj
+ 0001:0002d6d4       $unwind$LZMA2_encodeChunk  000000014002e6d4     lzma2_enc.obj
+ 0001:0002d6f0       $unwind$LZMA2_encode       000000014002e6f0     lzma2_enc.obj
+ 0001:0002d70c       $unwind$_vfprintf_l        000000014002e70c     radix_bitpack.obj
+ 0001:0002d70c       $unwind$XXH32_reset        000000014002e70c     xxhash.obj
+ 0001:0002d714       $unwind$printf             000000014002e714     radix_bitpack.obj
+ 0001:0002d720       $unwind$RMF_bitpackInit    000000014002e720     radix_bitpack.obj
+ 0001:0002d738       $chain$3$RMF_bitpackInit   000000014002e738     radix_bitpack.obj
+ 0001:0002d74c       $chain$4$RMF_bitpackInit   000000014002e74c     radix_bitpack.obj
+ 0001:0002d75c       $unwind$RMF_recurseListsBuffered 000000014002e75c     radix_bitpack.obj
+ 0001:0002d76c       $chain$3$RMF_recurseListsBuffered 000000014002e76c     radix_bitpack.obj
+ 0001:0002d78c       $chain$4$RMF_recurseListsBuffered 000000014002e78c     radix_bitpack.obj
+ 0001:0002d79c       $unwind$RMF_recurseListsBound 000000014002e79c     radix_bitpack.obj
+ 0001:0002d7a8       $chain$5$RMF_recurseListsBound 000000014002e7a8     radix_bitpack.obj
+ 0001:0002d7d0       $chain$6$RMF_recurseListsBound 000000014002e7d0     radix_bitpack.obj
+ 0001:0002d7e8       $chain$7$RMF_recurseListsBound 000000014002e7e8     radix_bitpack.obj
+ 0001:0002d7f8       $unwind$RMF_bruteForce     000000014002e7f8     radix_bitpack.obj
+ 0001:0002d810       $unwind$RMF_recurseLists16 000000014002e810     radix_bitpack.obj
+ 0001:0002d810       $unwind$RMF_recurseLists16 000000014002e810     radix_struct.obj
+ 0001:0002d828       $unwind$RMF_bitpackBuildTable 000000014002e828     radix_bitpack.obj
+ 0001:0002d828       $unwind$RMF_structuredBuildTable 000000014002e828     radix_struct.obj
+ 0001:0002d838       $chain$2$RMF_bitpackBuildTable 000000014002e838     radix_bitpack.obj
+ 0001:0002d854       $chain$3$RMF_bitpackBuildTable 000000014002e854     radix_bitpack.obj
+ 0001:0002d868       $chain$4$RMF_bitpackBuildTable 000000014002e868     radix_bitpack.obj
+ 0001:0002d878       $chain$5$RMF_bitpackBuildTable 000000014002e878     radix_bitpack.obj
+ 0001:0002d888       $unwind$RMF_bitpackIntegrityCheck 000000014002e888     radix_bitpack.obj
+ 0001:0002d898       $chain$2$RMF_bitpackIntegrityCheck 000000014002e898     radix_bitpack.obj
+ 0001:0002d8b4       $chain$3$RMF_bitpackIntegrityCheck 000000014002e8b4     radix_bitpack.obj
+ 0001:0002d8c4       $unwind$RMF_freeBuilderTable 000000014002e8c4     radix_mf.obj
+ 0001:0002d8c4       $unwind$RMF_freeMatchTable 000000014002e8c4     radix_mf.obj
+ 0001:0002d8cc       $chain$1$RMF_freeBuilderTable 000000014002e8cc     radix_mf.obj
+ 0001:0002d8e4       $chain$2$RMF_freeBuilderTable 000000014002e8e4     radix_mf.obj
+ 0001:0002d8f4       $unwind$RMF_createBuilderTable 000000014002e8f4     radix_mf.obj
+ 0001:0002d908       $chain$1$RMF_createBuilderTable 000000014002e908     radix_mf.obj
+ 0001:0002d920       $chain$3$RMF_createBuilderTable 000000014002e920     radix_mf.obj
+ 0001:0002d938       $unwind$RMF_applyParameters_internal 000000014002e938     radix_mf.obj
+ 0001:0002d948       $chain$2$RMF_applyParameters_internal 000000014002e948     radix_mf.obj
+ 0001:0002d964       $chain$4$RMF_applyParameters_internal 000000014002e964     radix_mf.obj
+ 0001:0002d980       $chain$5$RMF_applyParameters_internal 000000014002e980     radix_mf.obj
+ 0001:0002d990       $unwind$RMF_createMatchTable 000000014002e990     radix_mf.obj
+ 0001:0002d9a8       $chain$0$RMF_freeMatchTable 000000014002e9a8     radix_mf.obj
+ 0001:0002d9bc       $chain$2$RMF_freeMatchTable 000000014002e9bc     radix_mf.obj
+ 0001:0002d9d4       $chain$3$RMF_freeMatchTable 000000014002e9d4     radix_mf.obj
+ 0001:0002d9e4       $chain$4$RMF_freeMatchTable 000000014002e9e4     radix_mf.obj
+ 0001:0002d9f4       $unwind$RMF_compatibleParameters 000000014002e9f4     radix_mf.obj
+ 0001:0002d9fc       $unwind$RMF_applyParameters 000000014002e9fc     radix_mf.obj
+ 0001:0002d9fc       $unwind$UTIL_fileExist     000000014002e9fc     util.obj
+ 0001:0002d9fc       $unwind$UTIL_isDirectory   000000014002e9fc     util.obj
+ 0001:0002d9fc       $unwind$UTIL_isRegularFile 000000014002e9fc     util.obj
+ 0001:0002d9fc       $unwind$XXH64_reset        000000014002e9fc     xxhash.obj
+ 0001:0002da04       $unwind$RMF_initTable      000000014002ea04     radix_mf.obj
+ 0001:0002da18       $chain$4$RMF_initTable     000000014002ea18     radix_mf.obj
+ 0001:0002da30       $chain$5$RMF_initTable     000000014002ea30     radix_mf.obj
+ 0001:0002da40       $unwind$RMF_bruteForceBuffered 000000014002ea40     radix_mf.obj
+ 0001:0002da58       $unwind$RMF_recurseListChunk_generic 000000014002ea58     radix_mf.obj
+ 0001:0002da6c       $chain$1$RMF_recurseListChunk_generic 000000014002ea6c     radix_mf.obj
+ 0001:0002da84       $chain$2$RMF_recurseListChunk_generic 000000014002ea84     radix_mf.obj
+ 0001:0002da94       $unwind$RMF_recurseListChunk 000000014002ea94     radix_mf.obj
+ 0001:0002daa4       $chain$4$RMF_recurseListChunk 000000014002eaa4     radix_mf.obj
+ 0001:0002dac8       $chain$5$RMF_recurseListChunk 000000014002eac8     radix_mf.obj
+ 0001:0002dad8       $chain$6$RMF_recurseListChunk 000000014002ead8     radix_mf.obj
+ 0001:0002dafc       $unwind$RMF_handleRepeat   000000014002eafc     radix_struct.obj
+ 0001:0002dafc       $unwind$XXH32_endian_align 000000014002eafc     xxhash.obj
+ 0001:0002db04       $chain$0$RMF_handleRepeat  000000014002eb04     radix_struct.obj
+ 0001:0002db18       $chain$2$RMF_handleRepeat  000000014002eb18     radix_struct.obj
+ 0001:0002db2c       $chain$3$RMF_handleRepeat  000000014002eb2c     radix_struct.obj
+ 0001:0002db3c       $unwind$RMF_handleRepeat2  000000014002eb3c     radix_struct.obj
+ 0001:0002db48       $chain$0$RMF_handleRepeat2 000000014002eb48     radix_struct.obj
+ 0001:0002db5c       $chain$2$RMF_handleRepeat2 000000014002eb5c     radix_struct.obj
+ 0001:0002db70       $chain$3$RMF_handleRepeat2 000000014002eb70     radix_struct.obj
+ 0001:0002db80       $unwind$RMF_structuredInit 000000014002eb80     radix_struct.obj
+ 0001:0002db8c       $chain$1$RMF_structuredInit 000000014002eb8c     radix_struct.obj
+ 0001:0002dba0       $chain$4$RMF_structuredInit 000000014002eba0     radix_struct.obj
+ 0001:0002dbbc       $chain$5$RMF_structuredInit 000000014002ebbc     radix_struct.obj
+ 0001:0002dbcc       $chain$6$RMF_structuredInit 000000014002ebcc     radix_struct.obj
+ 0001:0002dbdc       $unwind$RMF_recurseListsBuffered 000000014002ebdc     radix_struct.obj
+ 0001:0002dbe8       $chain$5$RMF_recurseListsBuffered 000000014002ebe8     radix_struct.obj
+ 0001:0002dc10       $chain$6$RMF_recurseListsBuffered 000000014002ec10     radix_struct.obj
+ 0001:0002dc20       $unwind$RMF_recurseListsBound 000000014002ec20     radix_struct.obj
+ 0001:0002dc28       $chain$0$RMF_recurseListsBound 000000014002ec28     radix_struct.obj
+ 0001:0002dc3c       $chain$6$RMF_recurseListsBound 000000014002ec3c     radix_struct.obj
+ 0001:0002dc64       $chain$7$RMF_recurseListsBound 000000014002ec64     radix_struct.obj
+ 0001:0002dc80       $chain$8$RMF_recurseListsBound 000000014002ec80     radix_struct.obj
+ 0001:0002dc90       $unwind$RMF_bruteForce     000000014002ec90     radix_struct.obj
+ 0001:0002dca8       $chain$2$RMF_structuredBuildTable 000000014002eca8     radix_struct.obj
+ 0001:0002dcc4       $chain$3$RMF_structuredBuildTable 000000014002ecc4     radix_struct.obj
+ 0001:0002dcd8       $chain$4$RMF_structuredBuildTable 000000014002ecd8     radix_struct.obj
+ 0001:0002dce8       $chain$5$RMF_structuredBuildTable 000000014002ece8     radix_struct.obj
+ 0001:0002dcf8       $unwind$RMF_structuredIntegrityCheck 000000014002ecf8     radix_struct.obj
+ 0001:0002dd08       $chain$2$RMF_structuredIntegrityCheck 000000014002ed08     radix_struct.obj
+ 0001:0002dd24       $chain$3$RMF_structuredIntegrityCheck 000000014002ed24     radix_struct.obj
+ 0001:0002dd34       $unwind$RC_encodeBitTree   000000014002ed34     range_enc.obj
+ 0001:0002dd50       $unwind$RC_encodeBitTreeReverse 000000014002ed50     range_enc.obj
+ 0001:0002dd64       $unwind$fprintf            000000014002ed64     util.obj
+ 0001:0002dd6c       $unwind$UTIL_setFileStat   000000014002ed6c     util.obj
+ 0001:0002dd78       $chain$0$UTIL_setFileStat  000000014002ed78     util.obj
+ 0001:0002dd8c       $chain$1$UTIL_setFileStat  000000014002ed8c     util.obj
+ 0001:0002dd9c       $unwind$UTIL_getFileSize   000000014002ed9c     util.obj
+ 0001:0002dda8       $unwind$UTIL_getTotalFileSize 000000014002eda8     util.obj
+ 0001:0002ddb8       $chain$2$UTIL_getTotalFileSize 000000014002edb8     util.obj
+ 0001:0002ddd4       $chain$3$UTIL_getTotalFileSize 000000014002edd4     util.obj
+ 0001:0002dde4       $unwind$UTIL_prepareFileList 000000014002ede4     util.obj
+ 0001:0002ddfc       $chain$0$UTIL_prepareFileList 000000014002edfc     util.obj
+ 0001:0002de10       $chain$1$UTIL_prepareFileList 000000014002ee10     util.obj
+ 0001:0002de20       $chain$2$UTIL_prepareFileList 000000014002ee20     util.obj
+ 0001:0002de34       $unwind$UTIL_createFileList 000000014002ee34     util.obj
+ 0001:0002de50       $unwind$UTIL_countPhysicalCores 000000014002ee50     util.obj
+ 0001:0002de58       $chain$1$UTIL_countPhysicalCores 000000014002ee58     util.obj
+ 0001:0002de70       $chain$3$UTIL_countPhysicalCores 000000014002ee70     util.obj
+ 0001:0002de70       $chain$5$UTIL_countPhysicalCores 000000014002ee70     util.obj
+ 0001:0002de88       $chain$4$UTIL_countPhysicalCores 000000014002ee88     util.obj
+ 0001:0002de98       $chain$0$XXH32_endian_align 000000014002ee98     xxhash.obj
+ 0001:0002deac       $chain$2$XXH32_endian_align 000000014002eeac     xxhash.obj
+ 0001:0002dec4       $chain$3$XXH32_endian_align 000000014002eec4     xxhash.obj
+ 0001:0002ded4       $chain$4$XXH32_endian_align 000000014002eed4     xxhash.obj
+ 0001:0002dee4       $chain$1$XXH32             000000014002eee4     xxhash.obj
+ 0001:0002defc       $chain$2$XXH32             000000014002eefc     xxhash.obj
+ 0001:0002df0c       $unwind$XXH64_endian_align 000000014002ef0c     xxhash.obj
+ 0001:0002df18       $chain$0$XXH64_endian_align 000000014002ef18     xxhash.obj
+ 0001:0002df2c       $chain$1$XXH64_endian_align 000000014002ef2c     xxhash.obj
+ 0001:0002df40       $chain$4$XXH64_endian_align 000000014002ef40     xxhash.obj
+ 0001:0002df5c       $chain$5$XXH64_endian_align 000000014002ef5c     xxhash.obj
+ 0001:0002df6c       $chain$6$XXH64_endian_align 000000014002ef6c     xxhash.obj
+ 0001:0002df7c       $chain$7$XXH64_endian_align 000000014002ef7c     xxhash.obj
+ 0001:0002df8c       $unwind$XXH32_update_endian 000000014002ef8c     xxhash.obj
+ 0001:0002dfa0       $chain$0$XXH32_update_endian 000000014002efa0     xxhash.obj
+ 0001:0002dfb4       $chain$1$XXH32_update_endian 000000014002efb4     xxhash.obj
+ 0001:0002dfc4       $unwind$XXH32_update       000000014002efc4     xxhash.obj
+ 0001:0002dfd8       $chain$0$XXH32_update      000000014002efd8     xxhash.obj
+ 0001:0002dfec       $chain$1$XXH32_update      000000014002efec     xxhash.obj
+ 0001:0002dffc       $unwind$XXH64_update_endian 000000014002effc     xxhash.obj
+ 0001:0002e010       $chain$2$XXH64_update_endian 000000014002f010     xxhash.obj
+ 0001:0002e028       $chain$3$XXH64_update_endian 000000014002f028     xxhash.obj
+ 0001:0002e038       $unwind$XXH64_update       000000014002f038     xxhash.obj
+ 0001:0002e048       $chain$2$XXH64_update      000000014002f048     xxhash.obj
+ 0001:0002e064       $chain$3$XXH64_update      000000014002f064     xxhash.obj
+ 0001:0002e078       $unwind$XXH64_digest_endian 000000014002f078     xxhash.obj
+ 0001:0002e094       $unwind$XXH64_digest       000000014002f094     xxhash.obj
+ 0001:0002e0b0       $unwind$MemModuleHelper    000000014002f0b0     mmLoader.obj
+ 0001:0002e0c8       $unwind$LoadMemModuleInternal 000000014002f0c8     mmLoader.obj
+ 0001:0002e0e4       $chain$3$LoadMemModuleInternal 000000014002f0e4     mmLoader.obj
+ 0001:0002e104       $chain$4$LoadMemModuleInternal 000000014002f104     mmLoader.obj
+ 0001:0002e114       $chain$0$FreeMemModuleInternal 000000014002f114     mmLoader.obj
+ 0001:0002e128       $chain$1$FreeMemModuleInternal 000000014002f128     mmLoader.obj
+ 0001:0002e138       $chain$0$FreeMemModule     000000014002f138     mmLoader.obj
+ 0001:0002e14c       $chain$1$FreeMemModule     000000014002f14c     mmLoader.obj
+ 0001:0002e15c       $unwind$GetMemModuleProc   000000014002f15c     mmLoader.obj
+ 0001:0002e15c       $unwind$GetMemModuleProcInternal 000000014002f15c     mmLoader.obj
+ 0001:0002e164       $chain$4$GetMemModuleProcInternal 000000014002f164     mmLoader.obj
+ 0001:0002e188       $chain$5$GetMemModuleProcInternal 000000014002f188     mmLoader.obj
+ 0001:0002e198       $chain$4$GetMemModuleProc  000000014002f198     mmLoader.obj
+ 0001:0002e1bc       $chain$5$GetMemModuleProc  000000014002f1bc     mmLoader.obj
+ 0001:0002e1cc       $unwind$InitApiTable       000000014002f1cc     mmLoader.obj
+ 0001:0002e1e8       $chain$0$InitApiTable      000000014002f1e8     mmLoader.obj
+ 0001:0002e1fc       $chain$1$InitApiTable      000000014002f1fc     mmLoader.obj
+ 0001:0002e20c       $unwind$MapMemModuleSections 000000014002f20c     mmLoader.obj
+ 0001:0002e218       $chain$4$MapMemModuleSections 000000014002f218     mmLoader.obj
+ 0001:0002e23c       $chain$8$MapMemModuleSections 000000014002f23c     mmLoader.obj
+ 0001:0002e25c       $chain$9$MapMemModuleSections 000000014002f25c     mmLoader.obj
+ 0001:0002e26c       $chain$11$MapMemModuleSections 000000014002f26c     mmLoader.obj
+ 0001:0002e290       $chain$12$MapMemModuleSections 000000014002f290     mmLoader.obj
+ 0001:0002e2a0       $chain$2$RelocateModuleBase 000000014002f2a0     mmLoader.obj
+ 0001:0002e2bc       $chain$3$RelocateModuleBase 000000014002f2bc     mmLoader.obj
+ 0001:0002e2cc       $unwind$ResolveImportTable 000000014002f2cc     mmLoader.obj
+ 0001:0002e2d4       $chain$2$ResolveImportTable 000000014002f2d4     mmLoader.obj
+ 0001:0002e2f0       $chain$6$ResolveImportTable 000000014002f2f0     mmLoader.obj
+ 0001:0002e310       $chain$7$ResolveImportTable 000000014002f310     mmLoader.obj
+ 0001:0002e320       $chain$9$ResolveImportTable 000000014002f320     mmLoader.obj
+ 0001:0002e34c       $chain$10$ResolveImportTable 000000014002f34c     mmLoader.obj
+ 0001:0002e368       $chain$11$ResolveImportTable 000000014002f368     mmLoader.obj
+ 0001:0002e378       $unwind$SetMemProtectStatus 000000014002f378     mmLoader.obj
+ 0001:0002e380       $chain$6$SetMemProtectStatus 000000014002f380     mmLoader.obj
+ 0001:0002e3ac       $chain$8$SetMemProtectStatus 000000014002f3ac     mmLoader.obj
+ 0001:0002e3d8       $chain$9$SetMemProtectStatus 000000014002f3d8     mmLoader.obj
+ 0001:0002e3e8       $unwind$GetExportedProcAddress 000000014002f3e8     mmLoader.obj
+ 0001:0002e400       $unwind$GetCRC32           000000014002f400     mmLoader.obj
+ 0001:0002e410       $unwind$mml_memset         000000014002f410     mmLoader.obj
+ 0001:0002e418       $unwind$?func_unpack@@YAHPEAXH0@Z 000000014002f418     unpacker.obj
+ 0001:0002e424       $chain$2$?func_unpack@@YAHPEAXH0@Z 000000014002f424     unpacker.obj
+ 0001:0002e440       $chain$3$?func_unpack@@YAHPEAXH0@Z 000000014002f440     unpacker.obj
+ 0001:0002e454       $unwind$crt_init           000000014002f454     msvcrt:pe_resolver.obj
+ 0001:0002e45c       $unwind$memset             000000014002f45c     msvcrt:pe_resolver.obj
+ 0001:0002e464       $unwind$malloc             000000014002f464     msvcrt:pe_resolver.obj
+ 0001:0002e46c       $unwind$calloc             000000014002f46c     msvcrt:pe_resolver.obj
+ 0001:0002e474       $unwind$realloc            000000014002f474     msvcrt:pe_resolver.obj
+ 0001:0002e47c       $unwind$free               000000014002f47c     msvcrt:pe_resolver.obj
+ 0001:0002e484       $unwind$memcpy             000000014002f484     msvcrt:pe_resolver.obj
+ 0001:0002e48c       $unwind$memmove            000000014002f48c     msvcrt:pe_resolver.obj
+ 0001:0002e494       $unwind$exit               000000014002f494     msvcrt:pe_resolver.obj
+ 0001:0002e49c       $unwind$perror             000000014002f49c     msvcrt:pe_resolver.obj
+ 0001:0002e4a4       $unwind$time               000000014002f4a4     msvcrt:pe_resolver.obj
+ 0001:0002e4ac       $unwind$utime              000000014002f4ac     msvcrt:pe_resolver.obj
+ 0001:0002e4b4       $unwind$_time64            000000014002f4b4     msvcrt:pe_resolver.obj
+ 0001:0002e4bc       $unwind$_utime64           000000014002f4bc     msvcrt:pe_resolver.obj
+ 0001:0002e4c4       $unwind$_errno             000000014002f4c4     msvcrt:pe_resolver.obj
+ 0001:0002e4cc       $unwind$_stat64            000000014002f4cc     msvcrt:pe_resolver.obj
+ 0001:0002e4d4       $unwind$_chmod             000000014002f4d4     msvcrt:pe_resolver.obj
+ 0001:0002e4dc       $unwind$strlen             000000014002f4dc     msvcrt:pe_resolver.obj
+ 0001:0002e4e4       $unwind$strcmp             000000014002f4e4     msvcrt:pe_resolver.obj
+ 0001:0002e4ec       $unwind$_beginthreadex     000000014002f4ec     msvcrt:pe_resolver.obj
+ 0001:0002e4f4       $unwind$__acrt_iob_func    000000014002f4f4     msvcrt:pe_resolver.obj
+ 0001:0002e4fc       $unwind$__stdio_common_vfprintf 000000014002f4fc     msvcrt:pe_resolver.obj
+ 0001:0002e504       $unwind$?_crt_init@@YAXXZ  000000014002f504     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e50c       $unwind$?_memset@@YAPEAXPEAXH_K@Z 000000014002f50c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e514       $unwind$?h_malloc@@YAPEAX_K@Z 000000014002f514     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e51c       $unwind$?h_calloc@@YAPEAX_K0@Z 000000014002f51c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e524       $unwind$?h_realloc@@YAPEAXPEAX_K@Z 000000014002f524     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e52c       $unwind$?h_free@@YAXPEAX@Z 000000014002f52c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e534       $unwind$?h_memcpy@@YAPEAXPEAXPEBX_K@Z 000000014002f534     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e53c       $unwind$?h_memset@@YAPEAXPEAXH_K@Z 000000014002f53c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e544       $unwind$?h_memmove@@YAPEAXPEAXPEBX_K@Z 000000014002f544     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e54c       $unwind$?h_exit@@YAXH@Z    000000014002f54c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e554       $unwind$?h_perror@@YAXPEBD@Z 000000014002f554     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e55c       $unwind$?h_stat64@@YAHPEBDPEAX@Z 000000014002f55c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e564       $unwind$?h_time@@YA_JPEA_J@Z 000000014002f564     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e56c       $unwind$?h_utime@@YAHPEBDPEAX@Z 000000014002f56c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e574       $unwind$?h_time64@@YA_JPEA_J@Z 000000014002f574     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e57c       $unwind$?h_utime64@@YAHPEBDPEAX@Z 000000014002f57c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e584       $unwind$?h__errno@@YAHXZ   000000014002f584     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e58c       $unwind$?h_set_errno@@YAXH@Z 000000014002f58c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e594       $unwind$?h_chmod@@YAHPEBDH@Z 000000014002f594     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e59c       $unwind$?h_strlen@@YA_JPEBD@Z 000000014002f59c     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5a4       $unwind$?h_strcmp@@YAHPEBD0@Z 000000014002f5a4     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5ac       $unwind$?h_beginthreadex@@YAPEAXPEAXI00IPEAI@Z 000000014002f5ac     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5b4       $unwind$?h_acrt_iob_func@@YAPEAXI@Z 000000014002f5b4     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5bc       $unwind$?h_stdio_common_vfprintf@@YAH_KPEAXPEBD1PEAD@Z 000000014002f5bc     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5c4       $unwind$?image_export_dir@detail@li@@YAPEBUIMAGE_EXPORT_DIRECTORY@win@12@_K@Z 000000014002f5c4     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5cc       $unwind$??0exports_directory@detail@li@@QEAA@_K@Z 000000014002f5cc     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5d4       $unwind$??Bexports_directory@detail@li@@QEBA_NXZ 000000014002f5d4     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5dc       $unwind$?address@exports_directory@detail@li@@QEBA_KK@Z 000000014002f5dc     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5e4       $unwind$??$hash@D@detail@li@@YAIPEBD@Z 000000014002f5e4     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5ec       $unwind$??$find_nocache@$0FDLCAHAP@@detail@li@@YA_KXZ 000000014002f5ec     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e5f4       $unwind$?crypt_get@?$xor_string@$$CBD$0N@U?$integer_sequence@_K$0DGOABJPHLAINMJHJ@$0EBICPDAKLHJJMDEO@@std@@U?$integer_sequence@_K$0A@$00@2@@jm@@QEAAPEBDXZ 000000014002f5f4     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e5f4       $unwind$?crypt_get@?$xor_string@$$CBD$0L@U?$integer_sequence@_K$0HINDLFOKCAMBKMDD@$0?HAKIOIGLIEJGGM@@std@@U?$integer_sequence@_K$0A@$00@2@@jm@@QEAAPEBDXZ 000000014002f5f4     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0CHMFPGIB@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0CPKGCMKI@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0FAFGNPDH@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0GPENBDJI@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0HBJEIMKE@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0JBNJMLOC@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0LBAOAIFB@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0LEEINFNE@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0LGPLGBCG@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0MHANNDEA@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0NCGDLNOG@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0NHEICPFF@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0NKHKEJJL@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0NNDFMGOG@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0ODHDFPFC@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0OEGDNKDM@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0OJBLEAHH@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0PIPEFHCF@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0PJIODBAF@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0PNNDEJPH@@detail@li@@YA_K_K@Z 000000014002f600     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0BADGCPBK@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0BAIBLIL@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0CBMPGEFC@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0DAHMMAAG@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0EKIOLLBF@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0EPIHDMOG@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0FFIMCHEN@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0FILKDNJH@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0FNDMJLOE@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0HDOCACAD@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0HELPNHFP@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0IPLDJBEG@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0JJLDOONL@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0JNDGHAJE@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0KEFMOMGE@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0LCHMNEEC@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0LEJLCEKJ@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0LPCGLDEF@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0MLIAMMAG@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0MNONBKIF@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e600       $unwind$??$find_in_module@$0ONFJOEAH@@detail@li@@YA_K_K@Z 000000014002f600     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e608       $unwind$??$find_nocache@Uallow_all_modules@detail@li@@@detail@li@@YA_KIUallow_all_modules@01@@Z 000000014002f608     msvcrt:pe_resolver_funcs.obj
+ 0001:0002e610       $unwind$k32_init           000000014002f610     kernel32:pe_resolver_k32.obj
+ 0001:0002e618       $unwind$WaitForSingleObject 000000014002f618     kernel32:pe_resolver_k32.obj
+ 0001:0002e620       $unwind$GetLastError       000000014002f620     kernel32:pe_resolver_k32.obj
+ 0001:0002e628       $unwind$GetProcAddress     000000014002f628     kernel32:pe_resolver_k32.obj
+ 0001:0002e630       $unwind$Sleep              000000014002f630     kernel32:pe_resolver_k32.obj
+ 0001:0002e638       $unwind$InitializeCriticalSection 000000014002f638     kernel32:pe_resolver_k32.obj
+ 0001:0002e640       $unwind$DeleteCriticalSection 000000014002f640     kernel32:pe_resolver_k32.obj
+ 0001:0002e648       $unwind$EnterCriticalSection 000000014002f648     kernel32:pe_resolver_k32.obj
+ 0001:0002e650       $unwind$LeaveCriticalSection 000000014002f650     kernel32:pe_resolver_k32.obj
+ 0001:0002e658       $unwind$InitializeConditionVariable 000000014002f658     kernel32:pe_resolver_k32.obj
+ 0001:0002e660       $unwind$WakeConditionVariable 000000014002f660     kernel32:pe_resolver_k32.obj
+ 0001:0002e668       $unwind$WakeAllConditionVariable 000000014002f668     kernel32:pe_resolver_k32.obj
+ 0001:0002e670       $unwind$SleepConditionVariableCS 000000014002f670     kernel32:pe_resolver_k32.obj
+ 0001:0002e678       $unwind$FindClose          000000014002f678     kernel32:pe_resolver_k32.obj
+ 0001:0002e680       $unwind$FindFirstFileA     000000014002f680     kernel32:pe_resolver_k32.obj
+ 0001:0002e688       $unwind$FindNextFileA      000000014002f688     kernel32:pe_resolver_k32.obj
+ 0001:0002e690       $unwind$QueryPerformanceCounter 000000014002f690     kernel32:pe_resolver_k32.obj
+ 0001:0002e698       $unwind$QueryPerformanceFrequency 000000014002f698     kernel32:pe_resolver_k32.obj
+ 0001:0002e6a0       $unwind$GetSystemInfo      000000014002f6a0     kernel32:pe_resolver_k32.obj
+ 0001:0002e6a8       $unwind$GetModuleHandleW   000000014002f6a8     kernel32:pe_resolver_k32.obj
+ 0001:0002e6b0       $unwind$GetModuleHandleA   000000014002f6b0     kernel32:pe_resolver_k32.obj
+ 0001:0002e6b8       $unwind$K32_InitializeConditionVariable 000000014002f6b8     kernel32:pe_resolver_k32.obj
+ 0001:0002e6c0       $unwind$?_k32_init@@YAXXZ  000000014002f6c0     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e6c8       $unwind$?h_GetLastError@@YAKXZ 000000014002f6c8     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e6d0       $unwind$?h_GetProcAddress@@YAPEAXPEAXPEBD@Z 000000014002f6d0     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e6d8       $unwind$?h_WaitForSingleObject@@YAKPEAXK@Z 000000014002f6d8     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e6e0       $unwind$?h_Sleep@@YAXK@Z   000000014002f6e0     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e6e8       $unwind$?h_InitializeCriticalSection@@YAXPEAX@Z 000000014002f6e8     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e6f0       $unwind$?h_DeleteCriticalSection@@YAXPEAX@Z 000000014002f6f0     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e6f8       $unwind$?h_EnterCriticalSection@@YAXPEAX@Z 000000014002f6f8     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e700       $unwind$?h_LeaveCriticalSection@@YAXPEAX@Z 000000014002f700     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e708       $unwind$?h_InitializeConditionVariable@@YAXPEAX@Z 000000014002f708     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e710       $unwind$?h_WakeConditionVariable@@YAXPEAX@Z 000000014002f710     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e718       $unwind$?h_WakeAllConditionVariable@@YAXPEAX@Z 000000014002f718     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e720       $unwind$?h_SleepConditionVariableCS@@YAHPEAX0K@Z 000000014002f720     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e728       $unwind$?h_FindClose@@YAHPEAX@Z 000000014002f728     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e730       $unwind$?h_FindFirstFileA@@YAPEAXPEBDPEAX@Z 000000014002f730     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e738       $unwind$?h_FindNextFileA@@YAHPEAX0@Z 000000014002f738     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e740       $unwind$?h_QueryPerformanceCounter@@YAHPEAX@Z 000000014002f740     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e748       $unwind$?h_QueryPerformanceFrequency@@YAHPEAX@Z 000000014002f748     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e750       $unwind$?h_GetSystemInfo@@YAXPEAX@Z 000000014002f750     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e758       $unwind$?h_GetModuleHandleW@@YAPEAXPEB_W@Z 000000014002f758     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e760       $unwind$?h_GetModuleHandleA@@YAPEAXPEBD@Z 000000014002f760     kernel32:pe_resolver_k32_funcs.obj
+ 0001:0002e780       ?ticksPerSecond@?1??UTIL_getSpanTimeNano@@9@9 000000014002f780     util.obj
+ 0001:0002e788       ?numPhysicalCores@?1??UTIL_countPhysicalCores@@9@9 000000014002f788     util.obj
+ 0001:0002e78c       ?init@?1??UTIL_getSpanTimeMicro@@9@9 000000014002f78c     util.obj
+ 0001:0002e790       ?ticksPerSecond@?1??UTIL_getSpanTimeMicro@@9@9 000000014002f790     util.obj
+ 0001:0002e798       ?init@?1??UTIL_getSpanTimeNano@@9@9 000000014002f798     util.obj

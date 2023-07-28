@@ -17,7 +17,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>false</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
@@ -62,7 +62,7 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>false</OptimizeReferences>
-      <AdditionalDependencies>msvcrt.lib;kernel32.lib;.\lzma2\fast-lzma2.lib</AdditionalDependencies>
+      <AdditionalDependencies>msvcrt.lib;kernel32.lib;</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
@@ -83,11 +83,48 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="aes.c" />
+    <ClCompile Include="lzma2\dict_buffer.c" />
+    <ClCompile Include="lzma2\fl2_common.c" />
+    <ClCompile Include="lzma2\fl2_compress.c" />
+    <ClCompile Include="lzma2\fl2_decompress.c" />
+    <ClCompile Include="lzma2\fl2_pool.c" />
+    <ClCompile Include="lzma2\fl2_threading.c" />
+    <ClCompile Include="lzma2\lzma2_dec.c" />
+    <ClCompile Include="lzma2\lzma2_enc.c" />
+    <ClCompile Include="lzma2\radix_bitpack.c" />
+    <ClCompile Include="lzma2\radix_mf.c" />
+    <ClCompile Include="lzma2\radix_struct.c" />
+    <ClCompile Include="lzma2\range_enc.c" />
+    <ClCompile Include="lzma2\util.c" />
+    <ClCompile Include="lzma2\xxhash.c" />
     <ClCompile Include="mmLoader.c" />
     <ClCompile Include="unpacker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aes.h" />
+    <ClInclude Include="lzma2\atomic.h" />
+    <ClInclude Include="lzma2\compiler.h" />
+    <ClInclude Include="lzma2\count.h" />
+    <ClInclude Include="lzma2\data_block.h" />
+    <ClInclude Include="lzma2\dict_buffer.h" />
+    <ClInclude Include="lzma2\fast-lzma2.h" />
+    <ClInclude Include="lzma2\fastpos_table.h" />
+    <ClInclude Include="lzma2\fl2_compress_internal.h" />
+    <ClInclude Include="lzma2\fl2_errors.h" />
+    <ClInclude Include="lzma2\fl2_internal.h" />
+    <ClInclude Include="lzma2\fl2_pool.h" />
+    <ClInclude Include="lzma2\fl2_threading.h" />
+    <ClInclude Include="lzma2\lzma2_dec.h" />
+    <ClInclude Include="lzma2\lzma2_enc.h" />
+    <ClInclude Include="lzma2\mem.h" />
+    <ClInclude Include="lzma2\platform.h" />
+    <ClInclude Include="lzma2\radix_engine.h" />
+    <ClInclude Include="lzma2\radix_get.h" />
+    <ClInclude Include="lzma2\radix_internal.h" />
+    <ClInclude Include="lzma2\radix_mf.h" />
+    <ClInclude Include="lzma2\range_enc.h" />
+    <ClInclude Include="lzma2\util.h" />
+    <ClInclude Include="lzma2\xxhash.h" />
     <ClInclude Include="mmLoader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
