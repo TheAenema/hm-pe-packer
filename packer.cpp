@@ -5,6 +5,7 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
+#include <random>
 
 using namespace std;
 
@@ -23,7 +24,6 @@ extern "C"
 
 // Compression Library
 #include "lzma2/fast-lzma2.h"
-#pragma comment(lib, "lzma2\\fast-lzma2.lib")
 
 // PE Info Ediotr
 void  HMResKit_LoadPEFile(const char* peFile);
@@ -45,11 +45,42 @@ inline DWORD _align(DWORD size, DWORD align, DWORD addr = 0)
 	if (!(size % align)) return addr + size;
 	return addr + (size / align + 1) * align;
 }
+
+template<class T>
+inline DWORD _find(uint8_t* data, size_t data_size, T& value, size_t value_size)
+{
+	for (size_t i = 0; i < data_size; i++)
+		if (memcmp(&data[i], &value, value_size) == 0) return i;
+	return -1;
+}
+
 inline DWORD _find(uint8_t* data, size_t data_size, DWORD& value)
 {
 	for (size_t i = 0; i < data_size; i++)
 		if (memcmp(&data[i], &value, sizeof DWORD) == 0) return i;
 	return -1;
+}
+
+inline void GenerateRandomBytes(unsigned char* pBuf, size_t sSize)
+{
+	std::random_device rd;
+	std::mt19937 gen(rd());
+	std::uniform_int_distribution<> dis(0, 255);
+
+	for(size_t i = 0; i < sSize; i++)
+		pBuf[i] = dis(gen);
+}
+
+inline void PrintHexData(unsigned char* pData, const char* name, size_t sSize)
+{
+	printf("\n\nconst unsigned char %s[%ll] {\n", name, sSize);
+	printf("0x%02X", pData[0]);
+	for (size_t i = 1; i < sSize; i++)
+	{
+		if(i % 16 == 0) printf("\n");
+		printf(", 0x%02X", pData[i]);
+	}
+	printf("\n};\n\n");
 }
 
 // Machine Code
@@ -73,15 +104,39 @@ int main(int argc, char* argv[])
 	FlushConsoleInputBuffer(hConsole);
 	CONSOLE_COLOR_DEFAULT;
 
-	// Validate Arguments Count
-	if (argc != 3) return EXIT_FAILURE;
+	char input_pe_file[255] = "";
+	char output_pe_file[255] = "";
 
-	// User Inputs
-	char* input_pe_file		= argv[1];
-	char* output_pe_file	= argv[2];
+	for (int i = 0; i < argc; i++)
+	{
+		if (!strcmp(argv[i], "-i"))
+			strcpy_s(input_pe_file, sizeof(input_pe_file), argv[i + 1]);
+		if (!strcmp(argv[i], "-o"))
+			strcpy_s(output_pe_file, sizeof(output_pe_file), argv[i + 1]);
+	}
+
+	//check if input file is valid
+	if (strlen(input_pe_file) == 0)
+	{
+		CONSOLE_COLOR_ERROR;
+		printf("[Error] Input PE file is not specified.\n");
+		CONSOLE_COLOR_DEFAULT;
+		return EXIT_FAILURE;
+	}
+
+	//check if output file is valid
+	if (strlen(output_pe_file) == 0)
+	{
+		CONSOLE_COLOR_ERROR;
+		printf("[Error] Output PE file is not specified.\n");
+		CONSOLE_COLOR_DEFAULT;
+		return EXIT_FAILURE;
+	}
+
+	printf("Writing to %s\n", output_pe_file);
 
 	// Reading Input PE File
-	ifstream input_pe_file_reader(argv[1], ios::binary);
+	ifstream input_pe_file_reader(input_pe_file, ios::binary);
 	vector<uint8_t> input_pe_file_buffer(istreambuf_iterator<char>(input_pe_file_reader), {});
 	
 	// Parsing Input PE File
@@ -124,15 +179,15 @@ int main(int argc, char* argv[])
 	// <----- Packing Data ( Main Implementation ) ----->
 	printf("[Information] Initializing AES Cryptor...\n");
 	struct AES_ctx ctx;
-	const unsigned char key[32] = {
-	0xD6, 0x23, 0xB8, 0xEF, 0x62, 0x26, 0xCE, 0xC3, 0xE2, 0x4C, 0x55, 0x12,
-	0x7D, 0xE8, 0x73, 0xE7, 0x83, 0x9C, 0x77, 0x6B, 0xB1, 0xA9, 0x3B, 0x57,
-	0xB2, 0x5F, 0xDB, 0xEA, 0x0D, 0xB6, 0x8E, 0xA2
-	};
-	const unsigned char iv[16] = {
-	0x18, 0x42, 0x31, 0x2D, 0xFC, 0xEF, 0xDA, 0xB6, 0xB9, 0x49, 0xF1, 0x0D,
-	0x03, 0x7E, 0x7E, 0xBD
-	};
+	unsigned char key[32];
+	unsigned char iv[16];
+
+	GenerateRandomBytes(key, 32);
+	GenerateRandomBytes(iv, 16);
+
+	PrintHexData(key, "key", 32);
+	PrintHexData(iv, "iv", 16);
+
 	AES_init_ctx_iv(&ctx, key, iv);
 
 	printf("[Information] Initializing Compressor...\n");
@@ -281,7 +336,7 @@ int main(int argc, char* argv[])
 	nt_h.OptionalHeader.Subsystem = in_pe_nt_header->OptionalHeader.Subsystem;
 
 	// Update PE Entrypoint ( Taken from .map file )
-	nt_h.OptionalHeader.AddressOfEntryPoint = 0x00005F10;
+	nt_h.OptionalHeader.AddressOfEntryPoint = 0x2ac20;
 
 	// Get Const Values Offset In Unpacker
 	DWORD imagebase_value_sig = 0xBCEAEFBA;
@@ -468,10 +523,31 @@ int main(int argc, char* argv[])
 	DWORD data_size_sig = 0xEEFFAADD;
 	DWORD actual_data_size_sig = 0xA0B0C0D0;
 	DWORD header_size_sig = 0xF0E0D0A0;
+
+	const unsigned char keySig[32] = {
+		0xE4, 0xC9, 0x9D, 0x5C, 0x64, 0x45, 0x76, 0x20, 0x35, 0x2D, 0x33,
+		0xA8, 0x31, 0xE3, 0xC3, 0x02, 0xDB, 0x32, 0xE8, 0xF8, 0x2A, 0x8B,
+		0x90, 0x2B, 0xBB, 0xE8, 0x6B, 0x56, 0x2A, 0xB0, 0xDA, 0x7A
+	};
+
+	const unsigned char ivSig[16] = {
+			0xC7, 0x07, 0x32, 0x6C, 0x0C, 0x7A, 0x57, 0xF4, 0x96, 0x86, 0x69,
+			0xEC, 0x2B, 0x31, 0x26, 0x1D
+	};
+
 	DWORD data_ptr_offset = _find(unpacker_stub, sizeof unpacker_stub, data_ptr_sig);
 	DWORD data_size_offset = _find(unpacker_stub, sizeof unpacker_stub, data_size_sig);
 	DWORD actual_data_size_offset = _find(unpacker_stub, sizeof unpacker_stub, actual_data_size_sig);
 	DWORD header_size_offset = _find(unpacker_stub, sizeof unpacker_stub, header_size_sig);
+	DWORD keyOffset = _find(unpacker_stub, sizeof unpacker_stub, keySig, 32);
+	DWORD ivOffset = _find(unpacker_stub, sizeof unpacker_stub, ivSig, 16);
+
+	printf("Data Pointer Offset: %d\n", data_ptr_offset);
+	printf("Data Size Offset: %d\n", data_size_offset);
+	printf("Actual Data Size Offset: %d\n", actual_data_size_offset);
+	printf("Header Size Offset: %d\n", header_size_offset);
+	printf("Key Offset: %d\n", keyOffset);
+	printf("IV Offset: %d\n", ivOffset);
 
 	// Update Code Section
 	printf("[Information] Updating Offset Data...\n");
@@ -480,6 +556,8 @@ int main(int argc, char* argv[])
 	DWORD pe_file_actual_size = (DWORD)input_pe_file_buffer.size();
 	memcpy(&unpacker_stub[actual_data_size_offset], &pe_file_actual_size, sizeof DWORD);
 	memcpy(&unpacker_stub[header_size_offset], &nt_h.OptionalHeader.BaseOfCode, sizeof DWORD);
+	memcpy(&unpacker_stub[keyOffset], key, 32);
+	memcpy(&unpacker_stub[ivOffset], iv, 16);
 
 	// Write Code Section
 	printf("[Information] Writing Code Data...\n");
